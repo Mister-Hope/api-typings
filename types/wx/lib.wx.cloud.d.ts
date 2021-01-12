@@ -35,9 +35,9 @@ interface IAPISuccessParam {
     errMsg: string;
 }
 
-type IAPICompleteParam = IAPISuccessParam | IAPIError
+type IAPICompleteParam = IAPISuccessParam | IAPIError;
 
-type IAPIFunction<T, P extends IAPIParam<T>> = (param?: P) => Promise<T>
+type IAPIFunction<T, P extends IAPIParam<T>> = (param?: P) => Promise<T>;
 
 interface IInitCloudConfig {
     env?:
@@ -80,9 +80,9 @@ interface AnyObject {
     [x: string]: any;
 }
 
-type AnyArray = any[]
+type AnyArray = any[];
 
-type AnyFunction = (...args: any[]) => any
+type AnyFunction = (...args: any[]) => any;
 
 /**
  * extend wx with cloud
@@ -117,7 +117,7 @@ declare namespace ICloud {
     }
 
     // === API: callFunction ===
-    type CallFunctionData = AnyObject
+    type CallFunctionData = AnyObject;
 
     interface CallFunctionResult extends IAPISuccessParam {
         result: AnyObject | string | undefined;
@@ -202,7 +202,7 @@ declare namespace ICloud {
 
     // === API: CDN ===
     abstract class CDN {
-        target: string | ArrayBuffer | ICDNFilePathSpec
+        target: string | ArrayBuffer | ICDNFilePathSpec;
         constructor(target: string | ArrayBuffer | ICDNFilePathSpec);
     }
 
@@ -224,11 +224,11 @@ declare namespace DB {
      * The class of all exposed cloud database instances
      */
     class Database {
-        readonly config: ICloudConfig
-        readonly command: DatabaseCommand
-        readonly Geo: IGeo
-        readonly serverDate: () => ServerDate
-        readonly RegExp: IRegExpConstructor
+        readonly config: ICloudConfig;
+        readonly command: DatabaseCommand;
+        readonly Geo: IGeo;
+        readonly serverDate: () => ServerDate;
+        readonly RegExp: IRegExpConstructor;
 
         private constructor();
 
@@ -236,7 +236,7 @@ declare namespace DB {
     }
 
     class CollectionReference extends Query {
-        readonly collectionName: string
+        readonly collectionName: string;
 
         private constructor(name: string, database: Database);
 
@@ -268,7 +268,7 @@ declare namespace DB {
 
     class RealtimeListener {
         // "And Now His Watch Is Ended"
-        close: () => Promise<void>
+        close: () => Promise<void>;
     }
 
     class Query {
@@ -638,11 +638,11 @@ declare namespace DB {
         | IGeoJSONLineString
         | IGeoJSONMultiLineString
         | IGeoJSONPolygon
-        | IGeoJSONMultiPolygon
+        | IGeoJSONMultiPolygon;
 
     abstract class GeoPoint {
-        longitude: number
-        latitude: number
+        longitude: number;
+        latitude: number;
 
         constructor(longitude: number, latitude: number);
 
@@ -651,7 +651,7 @@ declare namespace DB {
     }
 
     abstract class GeoMultiPoint {
-        points: GeoPoint[]
+        points: GeoPoint[];
 
         constructor(points: GeoPoint[]);
 
@@ -660,7 +660,7 @@ declare namespace DB {
     }
 
     abstract class GeoLineString {
-        points: GeoPoint[]
+        points: GeoPoint[];
 
         constructor(points: GeoPoint[]);
 
@@ -669,7 +669,7 @@ declare namespace DB {
     }
 
     abstract class GeoMultiLineString {
-        lines: GeoLineString[]
+        lines: GeoLineString[];
 
         constructor(lines: GeoLineString[]);
 
@@ -678,7 +678,7 @@ declare namespace DB {
     }
 
     abstract class GeoPolygon {
-        lines: GeoLineString[]
+        lines: GeoLineString[];
 
         constructor(lines: GeoLineString[]);
 
@@ -687,7 +687,7 @@ declare namespace DB {
     }
 
     abstract class GeoMultiPolygon {
-        polygons: GeoPolygon[]
+        polygons: GeoPolygon[];
 
         constructor(polygons: GeoPolygon[]);
 
@@ -695,7 +695,7 @@ declare namespace DB {
         toString(): string;
     }
 
-    type GeoInstance = GeoPoint | GeoMultiPoint | GeoLineString | GeoMultiLineString | GeoPolygon | GeoMultiPolygon
+    type GeoInstance = GeoPoint | GeoMultiPoint | GeoLineString | GeoMultiLineString | GeoPolygon | GeoMultiPolygon;
 
     interface IGeoNearCommandOptions {
         geometry: GeoPoint;
@@ -716,7 +716,7 @@ declare namespace DB {
     }
 
     abstract class ServerDate {
-        readonly options: IServerDateOptions
+        readonly options: IServerDateOptions;
         constructor(options?: IServerDateOptions);
     }
 
@@ -731,27 +731,27 @@ declare namespace DB {
     }
 
     abstract class RegExp {
-        readonly regexp: string
-        readonly options: string
+        readonly regexp: string;
+        readonly options: string;
         constructor(options: IRegExpOptions);
     }
 
-    type DocumentId = string | number
+    type DocumentId = string | number;
 
     interface IDocumentData {
         _id?: DocumentId;
         [key: string]: any;
     }
 
-    type IDBAPIParam = IAPIParam
+    type IDBAPIParam = IAPIParam;
 
     interface IAddDocumentOptions extends IDBAPIParam {
         data: IDocumentData;
     }
 
-    type IGetDocumentOptions = IDBAPIParam
+    type IGetDocumentOptions = IDBAPIParam;
 
-    type ICountDocumentOptions = IDBAPIParam
+    type ICountDocumentOptions = IDBAPIParam;
 
     interface IUpdateDocumentOptions extends IDBAPIParam {
         data: IUpdateCondition;
@@ -773,7 +773,7 @@ declare namespace DB {
         query: IQueryCondition;
     }
 
-    type IRemoveSingleDocumentOptions = IDBAPIParam
+    type IRemoveSingleDocumentOptions = IDBAPIParam;
 
     interface IWatchOptions {
         // server realtime data init & change event
@@ -789,7 +789,7 @@ declare namespace DB {
         type?: SnapshotType;
     }
 
-    type SnapshotType = 'init'
+    type SnapshotType = 'init';
 
     interface ISingleDBEvent {
         id: number;
@@ -801,15 +801,15 @@ declare namespace DB {
         removedFields?: string[];
     }
 
-    type DataType = 'init' | 'update' | 'replace' | 'add' | 'remove' | 'limit'
+    type DataType = 'init' | 'update' | 'replace' | 'add' | 'remove' | 'limit';
 
-    type QueueType = 'init' | 'enqueue' | 'dequeue' | 'update'
+    type QueueType = 'init' | 'enqueue' | 'dequeue' | 'update';
 
     interface IQueryCondition {
         [key: string]: any;
     }
 
-    type IStringQueryCondition = string
+    type IStringQueryCondition = string;
 
     interface IQueryResult extends IAPISuccessParam {
         data: IDocumentData[];
@@ -823,7 +823,7 @@ declare namespace DB {
         [key: string]: any;
     }
 
-    type IStringUpdateCondition = string
+    type IStringUpdateCondition = string;
 
     interface IAddResult extends IAPISuccessParam {
         _id: DocumentId;
@@ -855,7 +855,7 @@ declare namespace DB {
     }
 }
 
-type Optional<T> = { [K in keyof T]+?: T[K] }
+type Optional<T> = { [K in keyof T]+?: T[K] };
 
 type OQ<T extends Optional<Record<'complete' | 'success' | 'fail', (...args: any[]) => any>>> =
     | (RQ<T> & Required<Pick<T, 'success'>>)
@@ -864,9 +864,9 @@ type OQ<T extends Optional<Record<'complete' | 'success' | 'fail', (...args: any
     | (RQ<T> & Required<Pick<T, 'success' | 'fail'>>)
     | (RQ<T> & Required<Pick<T, 'success' | 'complete'>>)
     | (RQ<T> & Required<Pick<T, 'fail' | 'complete'>>)
-    | (RQ<T> & Required<Pick<T, 'fail' | 'complete' | 'success'>>)
+    | (RQ<T> & Required<Pick<T, 'fail' | 'complete' | 'success'>>);
 
 type RQ<T extends Optional<Record<'complete' | 'success' | 'fail', (...args: any[]) => any>>> = Pick<
     T,
     Exclude<keyof T, 'complete' | 'success' | 'fail'>
->
+>;

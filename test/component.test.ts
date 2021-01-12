@@ -1,6 +1,6 @@
-import { expectType, expectError } from 'tsd'
+import { expectType, expectError } from 'tsd';
 
-expectType<string>(Component({}))
+expectType<string>(Component({}));
 
 Component({
     behaviors: [''],
@@ -23,17 +23,17 @@ Component({
             type: String,
             value: '',
             observer(n: string, o: string) {
-                n.concat(o)
+                n.concat(o);
             },
         },
         max: {
             type: Number,
             value: 0,
             observer(newVal, oldVal) {
-                expectType<number>(newVal)
-                expectType<number>(oldVal)
-                expectType<void>(this.onMyButtonTap())
-                expectType<number>(this.data.max)
+                expectType<number>(newVal);
+                expectType<number>(oldVal);
+                expectType<void>(this.onMyButtonTap());
+                expectType<number>(this.data.max);
             },
         },
         lastLeaf: {
@@ -53,7 +53,7 @@ Component({
         'numberA, numberB'(numberA: number, numberB: number) {
             this.setData({
                 sum: numberA + numberB,
-            })
+            });
         },
     },
 
@@ -62,7 +62,7 @@ Component({
         moved() {},
         detached() {},
         error(err) {
-            expectType<Error>(err)
+            expectType<Error>(err);
         },
     },
 
@@ -71,14 +71,14 @@ Component({
     pageLifetimes: {
         show() {
             // is current component but not the page
-            expectType<string>(this.is)
+            expectType<string>(this.is);
         },
     },
 
     methods: {
         onMyButtonTap() {
-            expectType<string>(this.data.text)
-            expectType<string>(this.data.min.toFixed())
+            expectType<string>(this.data.text);
+            expectType<string>(this.data.min.toFixed());
             this.triggerEvent(
                 'tap',
                 { a: 1 },
@@ -87,19 +87,19 @@ Component({
                     composed: true,
                     capturePhase: true,
                 },
-            )
+            );
         },
         _myPrivateMethod() {
             this.setData({
                 'A[0].B': 'myPrivateData',
-            })
+            });
         },
         _propertyChange(newVal: number, oldVal: number) {
-            expectType<number>(newVal)
-            expectType<number>(oldVal)
+            expectType<number>(newVal);
+            expectType<number>(oldVal);
         },
     },
-})
+});
 
 Component({
     methods: {
@@ -110,21 +110,21 @@ Component({
                 c: {
                     t: 'test',
                 },
-            })
+            });
         },
     },
-})
+});
 
 expectError(
     Component({
         custom: 1,
         methods: {
             f() {
-                expectError(this.custom)
+                expectError(this.custom);
             },
         },
     }),
-)
+);
 
 interface Config {
     a: number;
@@ -143,13 +143,13 @@ Component({
     },
     methods: {
         doc() {
-            expectType<Record<string, any>>(this.data.config)
+            expectType<Record<string, any>>(this.data.config);
         },
     },
     options: {
         addGlobalClass: true,
     },
-})
+});
 
 Component({
     properties: {
@@ -169,18 +169,18 @@ Component({
     },
     methods: {
         f() {
-            expectType<number>(this.data.n)
-            expectType<number>(this.data.n2)
-            expectType<string>(this.data.s)
-            expectType<any[]>(this.data.a)
-            expectType<any[]>(this.data.a2)
-            expectType<boolean>(this.data.b)
-            expectType<Record<string, any>>(this.data.o)
-            expectType<any>(this.data.a[0])
-            expectType<any>(this.data.o.prop)
+            expectType<number>(this.data.n);
+            expectType<number>(this.data.n2);
+            expectType<string>(this.data.s);
+            expectType<any[]>(this.data.a);
+            expectType<any[]>(this.data.a2);
+            expectType<boolean>(this.data.b);
+            expectType<Record<string, any>>(this.data.o);
+            expectType<any>(this.data.a[0]);
+            expectType<any>(this.data.o.prop);
         },
     },
-})
+});
 
 Component({
     properties: {
@@ -204,25 +204,25 @@ Component({
     },
     methods: {
         g() {
-            const str = (1).toFixed(0)
-            return str
+            const str = (1).toFixed(0);
+            return str;
         },
         f() {
-            expectType<string>(this.g())
-            expectType<number>(this.data.n)
-            expectType<number>(this.data.n2)
-            expectType<string>(this.data.s)
-            expectType<any[]>(this.data.a)
-            expectType<any[]>(this.data.a2)
-            expectType<boolean>(this.data.b)
-            expectType<Record<string, any>>(this.data.o)
-            expectType<Record<string, any>>(this.data.o2)
-            expectType<any>(this.data.o2.city)
-            expectType<any>(this.data.a[0])
-            expectType<any>(this.data.o.prop)
+            expectType<string>(this.g());
+            expectType<number>(this.data.n);
+            expectType<number>(this.data.n2);
+            expectType<string>(this.data.s);
+            expectType<any[]>(this.data.a);
+            expectType<any[]>(this.data.a2);
+            expectType<boolean>(this.data.b);
+            expectType<Record<string, any>>(this.data.o);
+            expectType<Record<string, any>>(this.data.o2);
+            expectType<any>(this.data.o2.city);
+            expectType<any>(this.data.a[0]);
+            expectType<any>(this.data.o.prop);
         },
     },
-})
+});
 
 Component({
     properties: {
@@ -237,11 +237,11 @@ Component({
     },
     methods: {
         f() {
-            expectType<number>(this.data.n)
-            expectType<any[]>(this.data.a)
+            expectType<number>(this.data.n);
+            expectType<any[]>(this.data.a);
         },
     },
-})
+});
 
 Component({
     properties: {
@@ -250,11 +250,11 @@ Component({
     },
     methods: {
         f() {
-            expectType<number>(this.data.n)
-            expectType<any[]>(this.data.a)
+            expectType<number>(this.data.n);
+            expectType<any[]>(this.data.a);
         },
     },
-})
+});
 
 expectError(
     Component({
@@ -265,11 +265,11 @@ expectError(
             someMethod() {
                 this.setData({
                     a: '',
-                })
+                });
             },
         },
     }),
-)
+);
 
 Component({
     options: {
@@ -281,14 +281,14 @@ Component({
     },
     methods: {
         myMethod() {
-            this.data._b // 纯数据字段可以在 this.data 中获取
+            this.data._b; // 纯数据字段可以在 this.data 中获取
             this.setData({
                 c: true, // 普通数据字段
                 _d: true, // 纯数据字段
-            })
+            });
         },
     },
-})
+});
 
 Component({
     properties: {
@@ -301,7 +301,7 @@ Component({
     methods: {
         onAChange() {},
     },
-})
+});
 
 Component({
     methods: {
@@ -316,10 +316,10 @@ Component({
                 5000,
                 () => {
                     this.clearAnimation('#container', { opacity: true, rotate: true }, function () {
-                        console.log('清除了#container上的opacity和rotate属性')
-                    })
+                        console.log('清除了#container上的opacity和rotate属性');
+                    });
                 },
-            )
+            );
 
             this.animate(
                 '.block',
@@ -331,13 +331,13 @@ Component({
                 5000,
                 () => {
                     this.clearAnimation('.block', function () {
-                        console.log('清除了.block上的所有动画属性')
-                    })
+                        console.log('清除了.block上的所有动画属性');
+                    });
                 },
-            )
+            );
         },
     },
-})
+});
 
 Component({
     methods: {
@@ -371,7 +371,7 @@ Component({
                     startScrollOffset: 0,
                     endScrollOffset: 85,
                 },
-            )
+            );
 
             this.animate(
                 '.search_input',
@@ -392,61 +392,61 @@ Component({
                     startScrollOffset: 120,
                     endScrollOffset: 252,
                 },
-            )
+            );
         },
     },
-})
+});
 
 Component({
     methods: {
         test() {
-            const channel = this.getOpenerEventChannel()
-            expectType<WechatMiniprogram.EventChannel>(channel)
-            channel.emit('test', {})
-            channel.on('xxx', () => {})
-            expectError(channel.emit(1, 2))
+            const channel = this.getOpenerEventChannel();
+            expectType<WechatMiniprogram.EventChannel>(channel);
+            channel.emit('test', {});
+            channel.on('xxx', () => {});
+            expectError(channel.emit(1, 2));
         },
     },
-})
+});
 
 Component<{}, {}, { fn(): void }>({
     methods: {
         fn() {
-            expectError(this.notExists)
+            expectError(this.notExists);
         },
     },
-})
+});
 
 {
     const data = {
         a: 1,
         b: '',
-    }
+    };
     const properties = {
         c: String,
         d: {
             type: Number,
             value: 4,
         },
-    }
+    };
     Component<
         typeof data,
         typeof properties,
         /* methods= */ { fn(): string },
         /* customProperties= */ {},
-        /* isPage= */ true
-    >({
-        data,
-        properties,
-        methods: {
-            onLoad(q) {
-                expectType<string[]>(Object.keys(q))
-            },
-            fn() {
-                expectType<() => void | Promise<void>>(this.onShow)
-                expectError(this.notExists)
-                return 'test'
-            },
-        },
-    })
+            /* isPage= */ true
+            >({
+                data,
+                properties,
+                methods: {
+                    onLoad(q) {
+                        expectType<string[]>(Object.keys(q));
+                    },
+                    fn() {
+                        expectType<() => void | Promise<void>>(this.onShow);
+                        expectError(this.notExists);
+                        return 'test';
+                    },
+                },
+            });
 }

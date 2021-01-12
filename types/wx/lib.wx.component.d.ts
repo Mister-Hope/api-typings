@@ -36,9 +36,9 @@ declare namespace WechatMiniprogram.Component {
             data: TData & PropertyOptionToData<TProperty>;
             /** 组件数据，**包括内部数据和属性值**（与 `data` 一致） */
             properties: TData & PropertyOptionToData<TProperty>;
-        }
-    type TrivialInstance = Instance<IAnyObject, IAnyObject, IAnyObject, IAnyObject>
-    type TrivialOption = Options<IAnyObject, IAnyObject, IAnyObject, IAnyObject>
+        };
+    type TrivialInstance = Instance<IAnyObject, IAnyObject, IAnyObject, IAnyObject>;
+    type TrivialOption = Options<IAnyObject, IAnyObject, IAnyObject, IAnyObject>;
     type Options<
         TData extends DataOption,
         TProperty extends PropertyOption,
@@ -50,7 +50,7 @@ declare namespace WechatMiniprogram.Component {
         Partial<Method<TMethod, TIsPage>> &
         Partial<OtherOption> &
         Partial<Lifetimes> &
-        ThisType<Instance<TData, TProperty, TMethod, TCustomInstanceProperty, TIsPage>>
+        ThisType<Instance<TData, TProperty, TMethod, TCustomInstanceProperty, TIsPage>>;
     interface Constructor {
         <
             TData extends DataOption,
@@ -62,9 +62,9 @@ declare namespace WechatMiniprogram.Component {
             options: Options<TData, TProperty, TMethod, TCustomInstanceProperty, TIsPage>,
         ): string;
     }
-    type DataOption = Record<string, any>
-    type PropertyOption = Record<string, AllProperty>
-    type MethodOption = Record<string, (...args: any[]) => any>
+    type DataOption = Record<string, any>;
+    type PropertyOption = Record<string, AllProperty>;
+    type MethodOption = Record<string, (...args: any[]) => any>;
 
     interface Data<D extends DataOption> {
         /** 组件的内部数据，和 `properties` 一同用于组件的模板渲染 */
@@ -84,7 +84,7 @@ declare namespace WechatMiniprogram.Component {
         | BooleanConstructor
         | ArrayConstructor
         | ObjectConstructor
-        | null
+        | null;
     type ValueType<T extends PropertyType> = T extends null
         ? any
         : T extends StringConstructor
@@ -97,7 +97,7 @@ declare namespace WechatMiniprogram.Component {
         ? any[]
         : T extends ObjectConstructor
         ? IAnyObject
-        : never
+        : never;
     type FullProperty<T extends PropertyType> = {
         /** 属性类型 */
         type: T;
@@ -107,29 +107,29 @@ declare namespace WechatMiniprogram.Component {
         observer?: string | ((newVal: ValueType<T>, oldVal: ValueType<T>, changedPath: Array<string | number>) => void);
         /** 属性的类型（可以指定多个） */
         optionalTypes?: ShortProperty[];
-    }
+    };
     type AllFullProperty =
         | FullProperty<StringConstructor>
         | FullProperty<NumberConstructor>
         | FullProperty<BooleanConstructor>
         | FullProperty<ArrayConstructor>
         | FullProperty<ObjectConstructor>
-        | FullProperty<null>
+        | FullProperty<null>;
     type ShortProperty =
         | StringConstructor
         | NumberConstructor
         | BooleanConstructor
         | ArrayConstructor
         | ObjectConstructor
-        | null
-    type AllProperty = AllFullProperty | ShortProperty
+        | null;
+    type AllProperty = AllFullProperty | ShortProperty;
     type PropertyToData<T extends AllProperty> = T extends ShortProperty
         ? ValueType<T>
-        : FullPropertyToData<Exclude<T, ShortProperty>>
-    type FullPropertyToData<T extends AllFullProperty> = ValueType<T['type']>
+        : FullPropertyToData<Exclude<T, ShortProperty>>;
+    type FullPropertyToData<T extends AllFullProperty> = ValueType<T['type']>;
     type PropertyOptionToData<P extends PropertyOption> = {
         [name in keyof P]: PropertyToData<P[name]>;
-    }
+    };
 
     interface InstanceProperties {
         /** 组件的文件路径 */
@@ -309,7 +309,7 @@ declare namespace WechatMiniprogram.Component {
         defFields: T,
         /** 该 behavior 所使用的 behavior 的 definitionFilter 函数列表 */
         definitionFilterArr?: DefinitionFilter[],
-    ) => void
+    ) => void;
 
     interface Lifetimes {
         /** 组件生命周期声明对象，组件的生命周期：`created`、`attached`、`ready`、`moved`、`detached` 将收归到 `lifetimes` 字段内进行声明，原有声明方式仍旧有效，如同时存在两种声明方式，则 `lifetimes` 字段内声明方式优先级最高
@@ -583,4 +583,4 @@ declare namespace WechatMiniprogram.Component {
  * * 从基础库 `2.0.9` 开始，对象类型的属性和 data 字段中可以包含函数类型的子字段，即可以通过对象类型的属性字段来传递函数。低于这一版本的基础库不支持这一特性。
  * * `bug` : 对于 type 为 Object 或 Array 的属性，如果通过该组件自身的 `this.setData` 来改变属性值的一个子字段，则依旧会触发属性 observer ，且 observer 接收到的 `newVal` 是变化的那个子字段的值， `oldVal` 为空， `changedPath` 包含子字段的字段名相关信息。
  */
-declare let Component: WechatMiniprogram.Component.Constructor
+declare let Component: WechatMiniprogram.Component.Constructor;

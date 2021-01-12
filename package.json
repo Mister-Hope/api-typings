@@ -9,7 +9,7 @@
         "test": "npm run tsd && npm run eslint",
         "tsd": "tsd",
         "lint": "prettier --check --write . && eslint --ext .js,.ts . --fix",
-        "eslint": "eslint ."
+        "eslint": "eslint --ext .ts ."
     },
     "repository": {
         "type": "git",

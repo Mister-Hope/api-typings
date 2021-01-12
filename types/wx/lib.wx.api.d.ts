@@ -16338,1882 +16338,1882 @@ wx.writeBLECharacteristicValue({
     }
 
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type AccessCompleteCallback = (res: GeneralCallbackResult) => void
+    type AccessCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type AccessFailCallback = (result: AccessFailCallbackResult) => void
+    type AccessFailCallback = (result: AccessFailCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type AccessSuccessCallback = (res: GeneralCallbackResult) => void
+    type AccessSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type AddCardCompleteCallback = (res: GeneralCallbackResult) => void
+    type AddCardCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type AddCardFailCallback = (res: GeneralCallbackResult) => void
+    type AddCardFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type AddCardSuccessCallback = (result: AddCardSuccessCallbackResult) => void
+    type AddCardSuccessCallback = (result: AddCardSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type AddCustomLayerCompleteCallback = (res: GeneralCallbackResult) => void
+    type AddCustomLayerCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type AddCustomLayerFailCallback = (res: GeneralCallbackResult) => void
+    type AddCustomLayerFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type AddCustomLayerSuccessCallback = (res: GeneralCallbackResult) => void
+    type AddCustomLayerSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type AddGroundOverlayCompleteCallback = (res: GeneralCallbackResult) => void
+    type AddGroundOverlayCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type AddGroundOverlayFailCallback = (res: GeneralCallbackResult) => void
+    type AddGroundOverlayFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type AddGroundOverlaySuccessCallback = (res: GeneralCallbackResult) => void
+    type AddGroundOverlaySuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type AddMarkersCompleteCallback = (res: GeneralCallbackResult) => void
+    type AddMarkersCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type AddMarkersFailCallback = (res: GeneralCallbackResult) => void
+    type AddMarkersFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type AddMarkersSuccessCallback = (res: GeneralCallbackResult) => void
+    type AddMarkersSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type AddPhoneContactCompleteCallback = (res: GeneralCallbackResult) => void
+    type AddPhoneContactCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type AddPhoneContactFailCallback = (res: GeneralCallbackResult) => void
+    type AddPhoneContactFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type AddPhoneContactSuccessCallback = (res: GeneralCallbackResult) => void
+    type AddPhoneContactSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type AddServiceCompleteCallback = (res: GeneralCallbackResult) => void
+    type AddServiceCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type AddServiceFailCallback = (res: GeneralCallbackResult) => void
+    type AddServiceFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type AddServiceSuccessCallback = (res: GeneralCallbackResult) => void
+    type AddServiceSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type AppendFileCompleteCallback = (res: GeneralCallbackResult) => void
+    type AppendFileCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type AppendFileFailCallback = (result: AppendFileFailCallbackResult) => void
+    type AppendFileFailCallback = (result: AppendFileFailCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type AppendFileSuccessCallback = (res: GeneralCallbackResult) => void
+    type AppendFileSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type AuthPrivateMessageCompleteCallback = (res: GeneralCallbackResult) => void
+    type AuthPrivateMessageCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type AuthPrivateMessageFailCallback = (res: GeneralCallbackResult) => void
+    type AuthPrivateMessageFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type AuthPrivateMessageSuccessCallback = (result: AuthPrivateMessageSuccessCallbackResult) => void
+    type AuthPrivateMessageSuccessCallback = (result: AuthPrivateMessageSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type AuthorizeCompleteCallback = (res: GeneralCallbackResult) => void
+    type AuthorizeCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type AuthorizeFailCallback = (res: GeneralCallbackResult) => void
+    type AuthorizeFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type AuthorizeSuccessCallback = (res: GeneralCallbackResult) => void
+    type AuthorizeSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 背景音频播放错误事件的回调函数 */
-    type BackgroundAudioManagerOnErrorCallback = (res: GeneralCallbackResult) => void
+    type BackgroundAudioManagerOnErrorCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type BlurCompleteCallback = (res: GeneralCallbackResult) => void
+    type BlurCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type BlurFailCallback = (res: GeneralCallbackResult) => void
+    type BlurFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type BlurSuccessCallback = (res: GeneralCallbackResult) => void
+    type BlurSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 回调函数，在执行 `SelectorQuery.exec` 方法后，节点信息会在 `callback` 中返回。 */
-    type BoundingClientRectCallback = (result: BoundingClientRectCallbackResult) => void
+    type BoundingClientRectCallback = (result: BoundingClientRectCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type CameraContextStartRecordSuccessCallback = (res: GeneralCallbackResult) => void
+    type CameraContextStartRecordSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type CameraContextStopRecordSuccessCallback = (result: StopRecordSuccessCallbackResult) => void
+    type CameraContextStopRecordSuccessCallback = (result: StopRecordSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type CanvasGetImageDataCompleteCallback = (res: GeneralCallbackResult) => void
+    type CanvasGetImageDataCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type CanvasGetImageDataFailCallback = (res: GeneralCallbackResult) => void
+    type CanvasGetImageDataFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type CanvasGetImageDataSuccessCallback = (result: CanvasGetImageDataSuccessCallbackResult) => void
+    type CanvasGetImageDataSuccessCallback = (result: CanvasGetImageDataSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type CanvasPutImageDataCompleteCallback = (res: GeneralCallbackResult) => void
+    type CanvasPutImageDataCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type CanvasPutImageDataFailCallback = (res: GeneralCallbackResult) => void
+    type CanvasPutImageDataFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type CanvasPutImageDataSuccessCallback = (res: GeneralCallbackResult) => void
+    type CanvasPutImageDataSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type CanvasToTempFilePathCompleteCallback = (res: GeneralCallbackResult) => void
+    type CanvasToTempFilePathCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type CanvasToTempFilePathFailCallback = (res: GeneralCallbackResult) => void
+    type CanvasToTempFilePathFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type CanvasToTempFilePathSuccessCallback = (result: CanvasToTempFilePathSuccessCallbackResult) => void
+    type CanvasToTempFilePathSuccessCallback = (result: CanvasToTempFilePathSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type CheckIsOpenAccessibilityCompleteCallback = (res: GeneralCallbackResult) => void
+    type CheckIsOpenAccessibilityCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type CheckIsOpenAccessibilityFailCallback = (res: GeneralCallbackResult) => void
+    type CheckIsOpenAccessibilityFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type CheckIsOpenAccessibilitySuccessCallback = (option: CheckIsOpenAccessibilitySuccessCallbackOption) => void
+    type CheckIsOpenAccessibilitySuccessCallback = (option: CheckIsOpenAccessibilitySuccessCallbackOption) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type CheckIsSoterEnrolledInDeviceCompleteCallback = (res: GeneralCallbackResult) => void
+    type CheckIsSoterEnrolledInDeviceCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type CheckIsSoterEnrolledInDeviceFailCallback = (res: GeneralCallbackResult) => void
+    type CheckIsSoterEnrolledInDeviceFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
     type CheckIsSoterEnrolledInDeviceSuccessCallback = (
         result: CheckIsSoterEnrolledInDeviceSuccessCallbackResult,
-    ) => void
+    ) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type CheckIsSupportSoterAuthenticationCompleteCallback = (res: GeneralCallbackResult) => void
+    type CheckIsSupportSoterAuthenticationCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type CheckIsSupportSoterAuthenticationFailCallback = (res: GeneralCallbackResult) => void
+    type CheckIsSupportSoterAuthenticationFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
     type CheckIsSupportSoterAuthenticationSuccessCallback = (
         result: CheckIsSupportSoterAuthenticationSuccessCallbackResult,
-    ) => void
+    ) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type CheckSessionCompleteCallback = (res: GeneralCallbackResult) => void
+    type CheckSessionCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type CheckSessionFailCallback = (res: GeneralCallbackResult) => void
+    type CheckSessionFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type CheckSessionSuccessCallback = (res: GeneralCallbackResult) => void
+    type CheckSessionSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type ChooseAddressCompleteCallback = (res: GeneralCallbackResult) => void
+    type ChooseAddressCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type ChooseAddressFailCallback = (res: GeneralCallbackResult) => void
+    type ChooseAddressFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type ChooseAddressSuccessCallback = (result: ChooseAddressSuccessCallbackResult) => void
+    type ChooseAddressSuccessCallback = (result: ChooseAddressSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type ChooseImageCompleteCallback = (res: GeneralCallbackResult) => void
+    type ChooseImageCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type ChooseImageFailCallback = (res: GeneralCallbackResult) => void
+    type ChooseImageFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type ChooseImageSuccessCallback = (result: ChooseImageSuccessCallbackResult) => void
+    type ChooseImageSuccessCallback = (result: ChooseImageSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type ChooseInvoiceCompleteCallback = (res: GeneralCallbackResult) => void
+    type ChooseInvoiceCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type ChooseInvoiceFailCallback = (res: GeneralCallbackResult) => void
+    type ChooseInvoiceFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type ChooseInvoiceSuccessCallback = (result: ChooseInvoiceSuccessCallbackResult) => void
+    type ChooseInvoiceSuccessCallback = (result: ChooseInvoiceSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type ChooseInvoiceTitleCompleteCallback = (res: GeneralCallbackResult) => void
+    type ChooseInvoiceTitleCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type ChooseInvoiceTitleFailCallback = (res: GeneralCallbackResult) => void
+    type ChooseInvoiceTitleFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type ChooseInvoiceTitleSuccessCallback = (result: ChooseInvoiceTitleSuccessCallbackResult) => void
+    type ChooseInvoiceTitleSuccessCallback = (result: ChooseInvoiceTitleSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type ChooseLocationCompleteCallback = (res: GeneralCallbackResult) => void
+    type ChooseLocationCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type ChooseLocationFailCallback = (res: GeneralCallbackResult) => void
+    type ChooseLocationFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type ChooseLocationSuccessCallback = (result: ChooseLocationSuccessCallbackResult) => void
+    type ChooseLocationSuccessCallback = (result: ChooseLocationSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type ChooseMediaCompleteCallback = (res: GeneralCallbackResult) => void
+    type ChooseMediaCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type ChooseMediaFailCallback = (res: GeneralCallbackResult) => void
+    type ChooseMediaFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type ChooseMediaSuccessCallback = (result: ChooseMediaSuccessCallbackResult) => void
+    type ChooseMediaSuccessCallback = (result: ChooseMediaSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type ChooseMessageFileCompleteCallback = (res: GeneralCallbackResult) => void
+    type ChooseMessageFileCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type ChooseMessageFileFailCallback = (res: GeneralCallbackResult) => void
+    type ChooseMessageFileFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type ChooseMessageFileSuccessCallback = (result: ChooseMessageFileSuccessCallbackResult) => void
+    type ChooseMessageFileSuccessCallback = (result: ChooseMessageFileSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type ChooseVideoCompleteCallback = (res: GeneralCallbackResult) => void
+    type ChooseVideoCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type ChooseVideoFailCallback = (res: GeneralCallbackResult) => void
+    type ChooseVideoFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type ChooseVideoSuccessCallback = (result: ChooseVideoSuccessCallbackResult) => void
+    type ChooseVideoSuccessCallback = (result: ChooseVideoSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type ClearCompleteCallback = (res: GeneralCallbackResult) => void
+    type ClearCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type ClearFailCallback = (res: GeneralCallbackResult) => void
+    type ClearFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type ClearStorageCompleteCallback = (res: GeneralCallbackResult) => void
+    type ClearStorageCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type ClearStorageFailCallback = (res: GeneralCallbackResult) => void
+    type ClearStorageFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type ClearStorageSuccessCallback = (res: GeneralCallbackResult) => void
+    type ClearStorageSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type ClearSuccessCallback = (res: GeneralCallbackResult) => void
+    type ClearSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type CloseBLEConnectionCompleteCallback = (res: BluetoothError) => void
+    type CloseBLEConnectionCompleteCallback = (res: BluetoothError) => void;
     /** 接口调用失败的回调函数 */
-    type CloseBLEConnectionFailCallback = (res: BluetoothError) => void
+    type CloseBLEConnectionFailCallback = (res: BluetoothError) => void;
     /** 接口调用成功的回调函数 */
-    type CloseBLEConnectionSuccessCallback = (res: BluetoothError) => void
+    type CloseBLEConnectionSuccessCallback = (res: BluetoothError) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type CloseBluetoothAdapterCompleteCallback = (res: BluetoothError) => void
+    type CloseBluetoothAdapterCompleteCallback = (res: BluetoothError) => void;
     /** 接口调用失败的回调函数 */
-    type CloseBluetoothAdapterFailCallback = (res: BluetoothError) => void
+    type CloseBluetoothAdapterFailCallback = (res: BluetoothError) => void;
     /** 接口调用成功的回调函数 */
-    type CloseBluetoothAdapterSuccessCallback = (res: BluetoothError) => void
+    type CloseBluetoothAdapterSuccessCallback = (res: BluetoothError) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type CloseSocketCompleteCallback = (res: GeneralCallbackResult) => void
+    type CloseSocketCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type CloseSocketFailCallback = (res: GeneralCallbackResult) => void
+    type CloseSocketFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type CloseSocketSuccessCallback = (res: GeneralCallbackResult) => void
+    type CloseSocketSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type CompressImageCompleteCallback = (res: GeneralCallbackResult) => void
+    type CompressImageCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type CompressImageFailCallback = (res: GeneralCallbackResult) => void
+    type CompressImageFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type CompressImageSuccessCallback = (result: CompressImageSuccessCallbackResult) => void
+    type CompressImageSuccessCallback = (result: CompressImageSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type CompressVideoCompleteCallback = (res: GeneralCallbackResult) => void
+    type CompressVideoCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type CompressVideoFailCallback = (res: GeneralCallbackResult) => void
+    type CompressVideoFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type CompressVideoSuccessCallback = (result: CompressVideoSuccessCallbackResult) => void
+    type CompressVideoSuccessCallback = (result: CompressVideoSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type ConnectCompleteCallback = (res: Nfcrwerror) => void
+    type ConnectCompleteCallback = (res: Nfcrwerror) => void;
     /** 接口调用失败的回调函数 */
-    type ConnectFailCallback = (res: Nfcrwerror) => void
+    type ConnectFailCallback = (res: Nfcrwerror) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type ConnectSocketCompleteCallback = (res: GeneralCallbackResult) => void
+    type ConnectSocketCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type ConnectSocketFailCallback = (res: GeneralCallbackResult) => void
+    type ConnectSocketFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type ConnectSocketSuccessCallback = (res: GeneralCallbackResult) => void
+    type ConnectSocketSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type ConnectSuccessCallback = (res: Nfcrwerror) => void
+    type ConnectSuccessCallback = (res: Nfcrwerror) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type ConnectWifiCompleteCallback = (res: WifiError) => void
+    type ConnectWifiCompleteCallback = (res: WifiError) => void;
     /** 接口调用失败的回调函数 */
-    type ConnectWifiFailCallback = (res: WifiError) => void
+    type ConnectWifiFailCallback = (res: WifiError) => void;
     /** 接口调用成功的回调函数 */
-    type ConnectWifiSuccessCallback = (res: WifiError) => void
+    type ConnectWifiSuccessCallback = (res: WifiError) => void;
     /** 回调函数，在执行 `SelectorQuery.exec` 方法后，返回节点信息。 */
-    type ContextCallback = (result: ContextCallbackResult) => void
+    type ContextCallback = (result: ContextCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type CopyFileCompleteCallback = (res: GeneralCallbackResult) => void
+    type CopyFileCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type CopyFileFailCallback = (result: CopyFileFailCallbackResult) => void
+    type CopyFileFailCallback = (result: CopyFileFailCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type CopyFileSuccessCallback = (res: GeneralCallbackResult) => void
+    type CopyFileSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type CreateBLEConnectionCompleteCallback = (res: BluetoothError) => void
+    type CreateBLEConnectionCompleteCallback = (res: BluetoothError) => void;
     /** 接口调用失败的回调函数 */
-    type CreateBLEConnectionFailCallback = (res: BluetoothError) => void
+    type CreateBLEConnectionFailCallback = (res: BluetoothError) => void;
     /** 接口调用成功的回调函数 */
-    type CreateBLEConnectionSuccessCallback = (res: BluetoothError) => void
+    type CreateBLEConnectionSuccessCallback = (res: BluetoothError) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type CreateBLEPeripheralServerCompleteCallback = (res: GeneralCallbackResult) => void
+    type CreateBLEPeripheralServerCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type CreateBLEPeripheralServerFailCallback = (res: GeneralCallbackResult) => void
+    type CreateBLEPeripheralServerFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type CreateBLEPeripheralServerSuccessCallback = (result: CreateBLEPeripheralServerSuccessCallbackResult) => void
+    type CreateBLEPeripheralServerSuccessCallback = (result: CreateBLEPeripheralServerSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type DisableAlertBeforeUnloadCompleteCallback = (res: GeneralCallbackResult) => void
+    type DisableAlertBeforeUnloadCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type DisableAlertBeforeUnloadFailCallback = (res: GeneralCallbackResult) => void
+    type DisableAlertBeforeUnloadFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type DisableAlertBeforeUnloadSuccessCallback = (res: GeneralCallbackResult) => void
+    type DisableAlertBeforeUnloadSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type DownloadFileCompleteCallback = (res: GeneralCallbackResult) => void
+    type DownloadFileCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type DownloadFileFailCallback = (res: GeneralCallbackResult) => void
+    type DownloadFileFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type DownloadFileSuccessCallback = (result: DownloadFileSuccessCallbackResult) => void
+    type DownloadFileSuccessCallback = (result: DownloadFileSuccessCallbackResult) => void;
     /** 下载进度变化事件的回调函数 */
-    type DownloadTaskOffProgressUpdateCallback = (result: DownloadTaskOnProgressUpdateCallbackResult) => void
+    type DownloadTaskOffProgressUpdateCallback = (result: DownloadTaskOnProgressUpdateCallbackResult) => void;
     /** 下载进度变化事件的回调函数 */
-    type DownloadTaskOnProgressUpdateCallback = (result: DownloadTaskOnProgressUpdateCallbackResult) => void
+    type DownloadTaskOnProgressUpdateCallback = (result: DownloadTaskOnProgressUpdateCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type EnableAlertBeforeUnloadCompleteCallback = (res: GeneralCallbackResult) => void
+    type EnableAlertBeforeUnloadCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type EnableAlertBeforeUnloadFailCallback = (res: GeneralCallbackResult) => void
+    type EnableAlertBeforeUnloadFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type EnableAlertBeforeUnloadSuccessCallback = (res: GeneralCallbackResult) => void
+    type EnableAlertBeforeUnloadSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 事件监听函数 */
     type EventCallback = (
         /** 触发事件参数 */
         ...args: any
-    ) => void
+    ) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type ExitFullScreenCompleteCallback = (res: GeneralCallbackResult) => void
+    type ExitFullScreenCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type ExitFullScreenFailCallback = (res: GeneralCallbackResult) => void
+    type ExitFullScreenFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type ExitFullScreenSuccessCallback = (res: GeneralCallbackResult) => void
+    type ExitFullScreenSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type ExitPictureInPictureCompleteCallback = (res: GeneralCallbackResult) => void
+    type ExitPictureInPictureCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type ExitPictureInPictureFailCallback = (res: GeneralCallbackResult) => void
+    type ExitPictureInPictureFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type ExitPictureInPictureSuccessCallback = (res: GeneralCallbackResult) => void
+    type ExitPictureInPictureSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type ExitVoIPChatCompleteCallback = (res: GeneralCallbackResult) => void
+    type ExitVoIPChatCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type ExitVoIPChatFailCallback = (res: GeneralCallbackResult) => void
+    type ExitVoIPChatFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type ExitVoIPChatSuccessCallback = (res: GeneralCallbackResult) => void
+    type ExitVoIPChatSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 回调函数 */
     type FieldsCallback = (
         /** 节点的相关信息 */
         res: IAnyObject,
-    ) => void
+    ) => void;
     /** 接口调用失败的回调函数 */
-    type FileSystemManagerGetFileInfoFailCallback = (result: GetFileInfoFailCallbackResult) => void
+    type FileSystemManagerGetFileInfoFailCallback = (result: GetFileInfoFailCallbackResult) => void;
     /** 接口调用成功的回调函数 */
     type FileSystemManagerGetFileInfoSuccessCallback = (
         result: FileSystemManagerGetFileInfoSuccessCallbackResult,
-    ) => void
+    ) => void;
     /** 接口调用成功的回调函数 */
     type FileSystemManagerGetSavedFileListSuccessCallback = (
         result: FileSystemManagerGetSavedFileListSuccessCallbackResult,
-    ) => void
+    ) => void;
     /** 接口调用失败的回调函数 */
-    type FileSystemManagerRemoveSavedFileFailCallback = (result: RemoveSavedFileFailCallbackResult) => void
+    type FileSystemManagerRemoveSavedFileFailCallback = (result: RemoveSavedFileFailCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type FileSystemManagerSaveFileFailCallback = (result: SaveFileFailCallbackResult) => void
+    type FileSystemManagerSaveFileFailCallback = (result: SaveFileFailCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type FromScreenLocationCompleteCallback = (res: GeneralCallbackResult) => void
+    type FromScreenLocationCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type FromScreenLocationFailCallback = (res: GeneralCallbackResult) => void
+    type FromScreenLocationFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type FromScreenLocationSuccessCallback = (result: GetCenterLocationSuccessCallbackResult) => void
+    type FromScreenLocationSuccessCallback = (result: GetCenterLocationSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type GetAtqaCompleteCallback = (res: Nfcrwerror) => void
+    type GetAtqaCompleteCallback = (res: Nfcrwerror) => void;
     /** 接口调用失败的回调函数 */
-    type GetAtqaFailCallback = (res: Nfcrwerror) => void
+    type GetAtqaFailCallback = (res: Nfcrwerror) => void;
     /** 接口调用成功的回调函数 */
-    type GetAtqaSuccessCallback = (result: GetAtqaSuccessCallbackResult) => void
+    type GetAtqaSuccessCallback = (result: GetAtqaSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type GetAvailableAudioSourcesCompleteCallback = (res: GeneralCallbackResult) => void
+    type GetAvailableAudioSourcesCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type GetAvailableAudioSourcesFailCallback = (res: GeneralCallbackResult) => void
+    type GetAvailableAudioSourcesFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type GetAvailableAudioSourcesSuccessCallback = (result: GetAvailableAudioSourcesSuccessCallbackResult) => void
+    type GetAvailableAudioSourcesSuccessCallback = (result: GetAvailableAudioSourcesSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type GetBLEDeviceCharacteristicsCompleteCallback = (res: BluetoothError) => void
+    type GetBLEDeviceCharacteristicsCompleteCallback = (res: BluetoothError) => void;
     /** 接口调用失败的回调函数 */
-    type GetBLEDeviceCharacteristicsFailCallback = (res: BluetoothError) => void
+    type GetBLEDeviceCharacteristicsFailCallback = (res: BluetoothError) => void;
     /** 接口调用成功的回调函数 */
     type GetBLEDeviceCharacteristicsSuccessCallback = (
         result: GetBLEDeviceCharacteristicsSuccessCallbackResult,
-    ) => void
+    ) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type GetBLEDeviceRSSICompleteCallback = (res: GeneralCallbackResult) => void
+    type GetBLEDeviceRSSICompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type GetBLEDeviceRSSIFailCallback = (res: GeneralCallbackResult) => void
+    type GetBLEDeviceRSSIFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type GetBLEDeviceRSSISuccessCallback = (result: GetBLEDeviceRSSISuccessCallbackResult) => void
+    type GetBLEDeviceRSSISuccessCallback = (result: GetBLEDeviceRSSISuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type GetBLEDeviceServicesCompleteCallback = (res: BluetoothError) => void
+    type GetBLEDeviceServicesCompleteCallback = (res: BluetoothError) => void;
     /** 接口调用失败的回调函数 */
-    type GetBLEDeviceServicesFailCallback = (res: BluetoothError) => void
+    type GetBLEDeviceServicesFailCallback = (res: BluetoothError) => void;
     /** 接口调用成功的回调函数 */
-    type GetBLEDeviceServicesSuccessCallback = (result: GetBLEDeviceServicesSuccessCallbackResult) => void
+    type GetBLEDeviceServicesSuccessCallback = (result: GetBLEDeviceServicesSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type GetBackgroundAudioPlayerStateCompleteCallback = (res: GeneralCallbackResult) => void
+    type GetBackgroundAudioPlayerStateCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type GetBackgroundAudioPlayerStateFailCallback = (res: GeneralCallbackResult) => void
+    type GetBackgroundAudioPlayerStateFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
     type GetBackgroundAudioPlayerStateSuccessCallback = (
         result: GetBackgroundAudioPlayerStateSuccessCallbackResult,
-    ) => void
+    ) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type GetBackgroundFetchDataCompleteCallback = (res: GeneralCallbackResult) => void
+    type GetBackgroundFetchDataCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type GetBackgroundFetchDataFailCallback = (res: GeneralCallbackResult) => void
+    type GetBackgroundFetchDataFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type GetBackgroundFetchDataSuccessCallback = (res: GeneralCallbackResult) => void
+    type GetBackgroundFetchDataSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type GetBackgroundFetchTokenCompleteCallback = (res: GeneralCallbackResult) => void
+    type GetBackgroundFetchTokenCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type GetBackgroundFetchTokenFailCallback = (res: GeneralCallbackResult) => void
+    type GetBackgroundFetchTokenFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type GetBackgroundFetchTokenSuccessCallback = (res: GeneralCallbackResult) => void
+    type GetBackgroundFetchTokenSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type GetBatteryInfoCompleteCallback = (res: GeneralCallbackResult) => void
+    type GetBatteryInfoCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type GetBatteryInfoFailCallback = (res: GeneralCallbackResult) => void
+    type GetBatteryInfoFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type GetBatteryInfoSuccessCallback = (result: GetBatteryInfoSuccessCallbackResult) => void
+    type GetBatteryInfoSuccessCallback = (result: GetBatteryInfoSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type GetBeaconsCompleteCallback = (res: IBeaconError) => void
+    type GetBeaconsCompleteCallback = (res: IBeaconError) => void;
     /** 接口调用失败的回调函数 */
-    type GetBeaconsFailCallback = (res: IBeaconError) => void
+    type GetBeaconsFailCallback = (res: IBeaconError) => void;
     /** 接口调用成功的回调函数 */
-    type GetBeaconsSuccessCallback = (result: GetBeaconsSuccessCallbackResult) => void
+    type GetBeaconsSuccessCallback = (result: GetBeaconsSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type GetBluetoothAdapterStateCompleteCallback = (res: BluetoothError) => void
+    type GetBluetoothAdapterStateCompleteCallback = (res: BluetoothError) => void;
     /** 接口调用失败的回调函数 */
-    type GetBluetoothAdapterStateFailCallback = (res: BluetoothError) => void
+    type GetBluetoothAdapterStateFailCallback = (res: BluetoothError) => void;
     /** 接口调用成功的回调函数 */
-    type GetBluetoothAdapterStateSuccessCallback = (result: GetBluetoothAdapterStateSuccessCallbackResult) => void
+    type GetBluetoothAdapterStateSuccessCallback = (result: GetBluetoothAdapterStateSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type GetBluetoothDevicesCompleteCallback = (res: BluetoothError) => void
+    type GetBluetoothDevicesCompleteCallback = (res: BluetoothError) => void;
     /** 接口调用失败的回调函数 */
-    type GetBluetoothDevicesFailCallback = (res: BluetoothError) => void
+    type GetBluetoothDevicesFailCallback = (res: BluetoothError) => void;
     /** 接口调用成功的回调函数 */
-    type GetBluetoothDevicesSuccessCallback = (result: GetBluetoothDevicesSuccessCallbackResult) => void
+    type GetBluetoothDevicesSuccessCallback = (result: GetBluetoothDevicesSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type GetCenterLocationCompleteCallback = (res: GeneralCallbackResult) => void
+    type GetCenterLocationCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type GetCenterLocationFailCallback = (res: GeneralCallbackResult) => void
+    type GetCenterLocationFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type GetCenterLocationSuccessCallback = (result: GetCenterLocationSuccessCallbackResult) => void
+    type GetCenterLocationSuccessCallback = (result: GetCenterLocationSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type GetClipboardDataCompleteCallback = (res: GeneralCallbackResult) => void
+    type GetClipboardDataCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type GetClipboardDataFailCallback = (res: GeneralCallbackResult) => void
+    type GetClipboardDataFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type GetClipboardDataSuccessCallback = (option: GetClipboardDataSuccessCallbackOption) => void
+    type GetClipboardDataSuccessCallback = (option: GetClipboardDataSuccessCallbackOption) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type GetConnectedBluetoothDevicesCompleteCallback = (res: BluetoothError) => void
+    type GetConnectedBluetoothDevicesCompleteCallback = (res: BluetoothError) => void;
     /** 接口调用失败的回调函数 */
-    type GetConnectedBluetoothDevicesFailCallback = (res: BluetoothError) => void
+    type GetConnectedBluetoothDevicesFailCallback = (res: BluetoothError) => void;
     /** 接口调用成功的回调函数 */
     type GetConnectedBluetoothDevicesSuccessCallback = (
         result: GetConnectedBluetoothDevicesSuccessCallbackResult,
-    ) => void
+    ) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type GetConnectedWifiCompleteCallback = (res: WifiError) => void
+    type GetConnectedWifiCompleteCallback = (res: WifiError) => void;
     /** 接口调用失败的回调函数 */
-    type GetConnectedWifiFailCallback = (res: WifiError) => void
+    type GetConnectedWifiFailCallback = (res: WifiError) => void;
     /** 接口调用成功的回调函数 */
-    type GetConnectedWifiSuccessCallback = (result: GetConnectedWifiSuccessCallbackResult) => void
+    type GetConnectedWifiSuccessCallback = (result: GetConnectedWifiSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type GetContentsCompleteCallback = (res: GeneralCallbackResult) => void
+    type GetContentsCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type GetContentsFailCallback = (res: GeneralCallbackResult) => void
+    type GetContentsFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type GetContentsSuccessCallback = (result: GetContentsSuccessCallbackResult) => void
+    type GetContentsSuccessCallback = (result: GetContentsSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type GetExtConfigCompleteCallback = (res: GeneralCallbackResult) => void
+    type GetExtConfigCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type GetExtConfigFailCallback = (res: GeneralCallbackResult) => void
+    type GetExtConfigFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type GetExtConfigSuccessCallback = (result: GetExtConfigSuccessCallbackResult) => void
+    type GetExtConfigSuccessCallback = (result: GetExtConfigSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type GetFileInfoCompleteCallback = (res: GeneralCallbackResult) => void
+    type GetFileInfoCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type GetGroupEnterInfoCompleteCallback = (res: GeneralCallbackResult) => void
+    type GetGroupEnterInfoCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type GetGroupEnterInfoFailCallback = (res: GeneralCallbackResult) => void
+    type GetGroupEnterInfoFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type GetGroupEnterInfoSuccessCallback = (result: GetGroupEnterInfoSuccessCallbackResult) => void
+    type GetGroupEnterInfoSuccessCallback = (result: GetGroupEnterInfoSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type GetHCEStateCompleteCallback = (res: NFCError) => void
+    type GetHCEStateCompleteCallback = (res: NFCError) => void;
     /** 接口调用失败的回调函数 */
-    type GetHCEStateFailCallback = (res: NFCError) => void
+    type GetHCEStateFailCallback = (res: NFCError) => void;
     /** 接口调用成功的回调函数 */
-    type GetHCEStateSuccessCallback = (res: NFCError) => void
+    type GetHCEStateSuccessCallback = (res: NFCError) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type GetHistoricalBytesCompleteCallback = (res: Nfcrwerror) => void
+    type GetHistoricalBytesCompleteCallback = (res: Nfcrwerror) => void;
     /** 接口调用失败的回调函数 */
-    type GetHistoricalBytesFailCallback = (res: Nfcrwerror) => void
+    type GetHistoricalBytesFailCallback = (res: Nfcrwerror) => void;
     /** 接口调用成功的回调函数 */
-    type GetHistoricalBytesSuccessCallback = (result: GetHistoricalBytesSuccessCallbackResult) => void
+    type GetHistoricalBytesSuccessCallback = (result: GetHistoricalBytesSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type GetImageInfoCompleteCallback = (res: GeneralCallbackResult) => void
+    type GetImageInfoCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type GetImageInfoFailCallback = (res: GeneralCallbackResult) => void
+    type GetImageInfoFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type GetImageInfoSuccessCallback = (result: GetImageInfoSuccessCallbackResult) => void
+    type GetImageInfoSuccessCallback = (result: GetImageInfoSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type GetLocationCompleteCallback = (res: GeneralCallbackResult) => void
+    type GetLocationCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type GetLocationFailCallback = (res: GeneralCallbackResult) => void
+    type GetLocationFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type GetLocationSuccessCallback = (result: GetLocationSuccessCallbackResult) => void
+    type GetLocationSuccessCallback = (result: GetLocationSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type GetMaxTransceiveLengthCompleteCallback = (res: Nfcrwerror) => void
+    type GetMaxTransceiveLengthCompleteCallback = (res: Nfcrwerror) => void;
     /** 接口调用失败的回调函数 */
-    type GetMaxTransceiveLengthFailCallback = (res: Nfcrwerror) => void
+    type GetMaxTransceiveLengthFailCallback = (res: Nfcrwerror) => void;
     /** 接口调用成功的回调函数 */
-    type GetMaxTransceiveLengthSuccessCallback = (result: GetMaxTransceiveLengthSuccessCallbackResult) => void
+    type GetMaxTransceiveLengthSuccessCallback = (result: GetMaxTransceiveLengthSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type GetNetworkTypeCompleteCallback = (res: GeneralCallbackResult) => void
+    type GetNetworkTypeCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type GetNetworkTypeFailCallback = (res: GeneralCallbackResult) => void
+    type GetNetworkTypeFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type GetNetworkTypeSuccessCallback = (result: GetNetworkTypeSuccessCallbackResult) => void
+    type GetNetworkTypeSuccessCallback = (result: GetNetworkTypeSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type GetRegionCompleteCallback = (res: GeneralCallbackResult) => void
+    type GetRegionCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type GetRegionFailCallback = (res: GeneralCallbackResult) => void
+    type GetRegionFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type GetRegionSuccessCallback = (result: GetRegionSuccessCallbackResult) => void
+    type GetRegionSuccessCallback = (result: GetRegionSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type GetRotateCompleteCallback = (res: GeneralCallbackResult) => void
+    type GetRotateCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type GetRotateFailCallback = (res: GeneralCallbackResult) => void
+    type GetRotateFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type GetRotateSuccessCallback = (result: GetRotateSuccessCallbackResult) => void
+    type GetRotateSuccessCallback = (result: GetRotateSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type GetSakCompleteCallback = (res: Nfcrwerror) => void
+    type GetSakCompleteCallback = (res: Nfcrwerror) => void;
     /** 接口调用失败的回调函数 */
-    type GetSakFailCallback = (res: Nfcrwerror) => void
+    type GetSakFailCallback = (res: Nfcrwerror) => void;
     /** 接口调用成功的回调函数 */
-    type GetSakSuccessCallback = (result: GetSakSuccessCallbackResult) => void
+    type GetSakSuccessCallback = (result: GetSakSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type GetSavedFileInfoCompleteCallback = (res: GeneralCallbackResult) => void
+    type GetSavedFileInfoCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type GetSavedFileInfoFailCallback = (res: GeneralCallbackResult) => void
+    type GetSavedFileInfoFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type GetSavedFileInfoSuccessCallback = (result: GetSavedFileInfoSuccessCallbackResult) => void
+    type GetSavedFileInfoSuccessCallback = (result: GetSavedFileInfoSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type GetSavedFileListCompleteCallback = (res: GeneralCallbackResult) => void
+    type GetSavedFileListCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type GetSavedFileListFailCallback = (res: GeneralCallbackResult) => void
+    type GetSavedFileListFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type GetScaleCompleteCallback = (res: GeneralCallbackResult) => void
+    type GetScaleCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type GetScaleFailCallback = (res: GeneralCallbackResult) => void
+    type GetScaleFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type GetScaleSuccessCallback = (result: GetScaleSuccessCallbackResult) => void
+    type GetScaleSuccessCallback = (result: GetScaleSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type GetScreenBrightnessCompleteCallback = (res: GeneralCallbackResult) => void
+    type GetScreenBrightnessCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type GetScreenBrightnessFailCallback = (res: GeneralCallbackResult) => void
+    type GetScreenBrightnessFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type GetScreenBrightnessSuccessCallback = (option: GetScreenBrightnessSuccessCallbackOption) => void
+    type GetScreenBrightnessSuccessCallback = (option: GetScreenBrightnessSuccessCallbackOption) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type GetSelectedTextRangeCompleteCallback = (res: GeneralCallbackResult) => void
+    type GetSelectedTextRangeCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type GetSelectedTextRangeFailCallback = (res: GeneralCallbackResult) => void
+    type GetSelectedTextRangeFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type GetSelectedTextRangeSuccessCallback = (result: GetSelectedTextRangeSuccessCallbackResult) => void
+    type GetSelectedTextRangeSuccessCallback = (result: GetSelectedTextRangeSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type GetSelectionTextCompleteCallback = (res: GeneralCallbackResult) => void
+    type GetSelectionTextCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type GetSelectionTextFailCallback = (res: GeneralCallbackResult) => void
+    type GetSelectionTextFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type GetSelectionTextSuccessCallback = (result: GetSelectionTextSuccessCallbackResult) => void
+    type GetSelectionTextSuccessCallback = (result: GetSelectionTextSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type GetSettingCompleteCallback = (res: GeneralCallbackResult) => void
+    type GetSettingCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type GetSettingFailCallback = (res: GeneralCallbackResult) => void
+    type GetSettingFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type GetSettingSuccessCallback = (result: GetSettingSuccessCallbackResult) => void
+    type GetSettingSuccessCallback = (result: GetSettingSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type GetShareInfoCompleteCallback = (res: GeneralCallbackResult) => void
+    type GetShareInfoCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type GetShareInfoFailCallback = (res: GeneralCallbackResult) => void
+    type GetShareInfoFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type GetShareInfoSuccessCallback = (result: GetGroupEnterInfoSuccessCallbackResult) => void
+    type GetShareInfoSuccessCallback = (result: GetGroupEnterInfoSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type GetSkewCompleteCallback = (res: GeneralCallbackResult) => void
+    type GetSkewCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type GetSkewFailCallback = (res: GeneralCallbackResult) => void
+    type GetSkewFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type GetSkewSuccessCallback = (result: GetSkewSuccessCallbackResult) => void
+    type GetSkewSuccessCallback = (result: GetSkewSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type GetStorageCompleteCallback = (res: GeneralCallbackResult) => void
+    type GetStorageCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type GetStorageFailCallback = (res: GeneralCallbackResult) => void
+    type GetStorageFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type GetStorageInfoCompleteCallback = (res: GeneralCallbackResult) => void
+    type GetStorageInfoCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type GetStorageInfoFailCallback = (res: GeneralCallbackResult) => void
+    type GetStorageInfoFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type GetStorageInfoSuccessCallback = (option: GetStorageInfoSuccessCallbackOption) => void
+    type GetStorageInfoSuccessCallback = (option: GetStorageInfoSuccessCallbackOption) => void;
     /** 接口调用成功的回调函数 */
-    type GetStorageSuccessCallback = (result: GetStorageSuccessCallbackResult) => void
+    type GetStorageSuccessCallback = (result: GetStorageSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type GetSystemInfoAsyncCompleteCallback = (res: GeneralCallbackResult) => void
+    type GetSystemInfoAsyncCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type GetSystemInfoAsyncFailCallback = (res: GeneralCallbackResult) => void
+    type GetSystemInfoAsyncFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type GetSystemInfoAsyncSuccessCallback = (result: SystemInfo) => void
+    type GetSystemInfoAsyncSuccessCallback = (result: SystemInfo) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type GetSystemInfoCompleteCallback = (res: GeneralCallbackResult) => void
+    type GetSystemInfoCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type GetSystemInfoFailCallback = (res: GeneralCallbackResult) => void
+    type GetSystemInfoFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type GetSystemInfoSuccessCallback = (result: SystemInfo) => void
+    type GetSystemInfoSuccessCallback = (result: SystemInfo) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type GetUserInfoCompleteCallback = (res: GeneralCallbackResult) => void
+    type GetUserInfoCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type GetUserInfoFailCallback = (res: GeneralCallbackResult) => void
+    type GetUserInfoFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type GetUserInfoSuccessCallback = (result: GetUserInfoSuccessCallbackResult) => void
+    type GetUserInfoSuccessCallback = (result: GetUserInfoSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type GetVideoInfoCompleteCallback = (res: GeneralCallbackResult) => void
+    type GetVideoInfoCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type GetVideoInfoFailCallback = (res: GeneralCallbackResult) => void
+    type GetVideoInfoFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type GetVideoInfoSuccessCallback = (result: GetVideoInfoSuccessCallbackResult) => void
+    type GetVideoInfoSuccessCallback = (result: GetVideoInfoSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type GetWeRunDataCompleteCallback = (res: GeneralCallbackResult) => void
+    type GetWeRunDataCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type GetWeRunDataFailCallback = (res: GeneralCallbackResult) => void
+    type GetWeRunDataFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type GetWeRunDataSuccessCallback = (result: GetWeRunDataSuccessCallbackResult) => void
+    type GetWeRunDataSuccessCallback = (result: GetWeRunDataSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type GetWifiListCompleteCallback = (res: WifiError) => void
+    type GetWifiListCompleteCallback = (res: WifiError) => void;
     /** 接口调用失败的回调函数 */
-    type GetWifiListFailCallback = (res: WifiError) => void
+    type GetWifiListFailCallback = (res: WifiError) => void;
     /** 接口调用成功的回调函数 */
-    type GetWifiListSuccessCallback = (res: WifiError) => void
+    type GetWifiListSuccessCallback = (res: WifiError) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type HideHomeButtonCompleteCallback = (res: GeneralCallbackResult) => void
+    type HideHomeButtonCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type HideHomeButtonFailCallback = (res: GeneralCallbackResult) => void
+    type HideHomeButtonFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type HideHomeButtonSuccessCallback = (res: GeneralCallbackResult) => void
+    type HideHomeButtonSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type HideKeyboardCompleteCallback = (res: GeneralCallbackResult) => void
+    type HideKeyboardCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type HideKeyboardFailCallback = (res: GeneralCallbackResult) => void
+    type HideKeyboardFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type HideKeyboardSuccessCallback = (res: GeneralCallbackResult) => void
+    type HideKeyboardSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type HideLoadingCompleteCallback = (res: GeneralCallbackResult) => void
+    type HideLoadingCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type HideLoadingFailCallback = (res: GeneralCallbackResult) => void
+    type HideLoadingFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type HideLoadingSuccessCallback = (res: GeneralCallbackResult) => void
+    type HideLoadingSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type HideNavigationBarLoadingCompleteCallback = (res: GeneralCallbackResult) => void
+    type HideNavigationBarLoadingCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type HideNavigationBarLoadingFailCallback = (res: GeneralCallbackResult) => void
+    type HideNavigationBarLoadingFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type HideNavigationBarLoadingSuccessCallback = (res: GeneralCallbackResult) => void
+    type HideNavigationBarLoadingSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type HideShareMenuCompleteCallback = (res: GeneralCallbackResult) => void
+    type HideShareMenuCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type HideShareMenuFailCallback = (res: GeneralCallbackResult) => void
+    type HideShareMenuFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type HideShareMenuSuccessCallback = (res: GeneralCallbackResult) => void
+    type HideShareMenuSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type HideTabBarCompleteCallback = (res: GeneralCallbackResult) => void
+    type HideTabBarCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type HideTabBarFailCallback = (res: GeneralCallbackResult) => void
+    type HideTabBarFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type HideTabBarRedDotCompleteCallback = (res: GeneralCallbackResult) => void
+    type HideTabBarRedDotCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type HideTabBarRedDotFailCallback = (res: GeneralCallbackResult) => void
+    type HideTabBarRedDotFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type HideTabBarRedDotSuccessCallback = (res: GeneralCallbackResult) => void
+    type HideTabBarRedDotSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type HideTabBarSuccessCallback = (res: GeneralCallbackResult) => void
+    type HideTabBarSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type HideToastCompleteCallback = (res: GeneralCallbackResult) => void
+    type HideToastCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type HideToastFailCallback = (res: GeneralCallbackResult) => void
+    type HideToastFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type HideToastSuccessCallback = (res: GeneralCallbackResult) => void
+    type HideToastSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type IncludePointsCompleteCallback = (res: GeneralCallbackResult) => void
+    type IncludePointsCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type IncludePointsFailCallback = (res: GeneralCallbackResult) => void
+    type IncludePointsFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type IncludePointsSuccessCallback = (res: GeneralCallbackResult) => void
+    type IncludePointsSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type InitMarkerClusterCompleteCallback = (res: GeneralCallbackResult) => void
+    type InitMarkerClusterCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type InitMarkerClusterFailCallback = (res: GeneralCallbackResult) => void
+    type InitMarkerClusterFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type InitMarkerClusterSuccessCallback = (res: GeneralCallbackResult) => void
+    type InitMarkerClusterSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 音频播放错误事件的回调函数 */
-    type InnerAudioContextOffErrorCallback = (result: InnerAudioContextOnErrorCallbackResult) => void
+    type InnerAudioContextOffErrorCallback = (result: InnerAudioContextOnErrorCallbackResult) => void;
     /** 音频播放错误事件的回调函数 */
-    type InnerAudioContextOnErrorCallback = (result: InnerAudioContextOnErrorCallbackResult) => void
-    type InnerAudioContextOnStopCallback = (res: GeneralCallbackResult) => void
+    type InnerAudioContextOnErrorCallback = (result: InnerAudioContextOnErrorCallbackResult) => void;
+    type InnerAudioContextOnStopCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type InsertDividerCompleteCallback = (res: GeneralCallbackResult) => void
+    type InsertDividerCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type InsertDividerFailCallback = (res: GeneralCallbackResult) => void
+    type InsertDividerFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type InsertDividerSuccessCallback = (res: GeneralCallbackResult) => void
+    type InsertDividerSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type InsertImageCompleteCallback = (res: GeneralCallbackResult) => void
+    type InsertImageCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type InsertImageFailCallback = (res: GeneralCallbackResult) => void
+    type InsertImageFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type InsertImageSuccessCallback = (res: GeneralCallbackResult) => void
+    type InsertImageSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type InsertTextCompleteCallback = (res: GeneralCallbackResult) => void
+    type InsertTextCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type InsertTextFailCallback = (res: GeneralCallbackResult) => void
+    type InsertTextFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type InsertTextSuccessCallback = (res: GeneralCallbackResult) => void
+    type InsertTextSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 监听相交状态变化的回调函数 */
-    type IntersectionObserverObserveCallback = (result: IntersectionObserverObserveCallbackResult) => void
+    type IntersectionObserverObserveCallback = (result: IntersectionObserverObserveCallbackResult) => void;
     /** 插屏错误事件的回调函数 */
-    type InterstitialAdOffErrorCallback = (result: InterstitialAdOnErrorCallbackResult) => void
+    type InterstitialAdOffErrorCallback = (result: InterstitialAdOnErrorCallbackResult) => void;
     /** 插屏错误事件的回调函数 */
-    type InterstitialAdOnErrorCallback = (result: InterstitialAdOnErrorCallbackResult) => void
+    type InterstitialAdOnErrorCallback = (result: InterstitialAdOnErrorCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type IsConnectedCompleteCallback = (res: Nfcrwerror) => void
+    type IsConnectedCompleteCallback = (res: Nfcrwerror) => void;
     /** 接口调用失败的回调函数 */
-    type IsConnectedFailCallback = (res: Nfcrwerror) => void
+    type IsConnectedFailCallback = (res: Nfcrwerror) => void;
     /** 接口调用成功的回调函数 */
-    type IsConnectedSuccessCallback = (res: Nfcrwerror) => void
+    type IsConnectedSuccessCallback = (res: Nfcrwerror) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type JoinVoIPChatCompleteCallback = (res: JoinVoIPChatError) => void
+    type JoinVoIPChatCompleteCallback = (res: JoinVoIPChatError) => void;
     /** 接口调用失败的回调函数 */
-    type JoinVoIPChatFailCallback = (res: JoinVoIPChatError) => void
+    type JoinVoIPChatFailCallback = (res: JoinVoIPChatError) => void;
     /** 接口调用成功的回调函数 */
-    type JoinVoIPChatSuccessCallback = (result: JoinVoIPChatSuccessCallbackResult) => void
+    type JoinVoIPChatSuccessCallback = (result: JoinVoIPChatSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type LoadFontFaceCompleteCallback = (result: LoadFontFaceCompleteCallbackResult) => void
+    type LoadFontFaceCompleteCallback = (result: LoadFontFaceCompleteCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type LoadFontFaceFailCallback = (result: LoadFontFaceCompleteCallbackResult) => void
+    type LoadFontFaceFailCallback = (result: LoadFontFaceCompleteCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type LoadFontFaceSuccessCallback = (result: LoadFontFaceCompleteCallbackResult) => void
+    type LoadFontFaceSuccessCallback = (result: LoadFontFaceCompleteCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type LoginCompleteCallback = (res: GeneralCallbackResult) => void
+    type LoginCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type LoginFailCallback = (res: GeneralCallbackResult) => void
+    type LoginFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type LoginSuccessCallback = (result: LoginSuccessCallbackResult) => void
+    type LoginSuccessCallback = (result: LoginSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type MakeBluetoothPairCompleteCallback = (res: GeneralCallbackResult) => void
+    type MakeBluetoothPairCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type MakeBluetoothPairFailCallback = (res: GeneralCallbackResult) => void
+    type MakeBluetoothPairFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type MakeBluetoothPairSuccessCallback = (res: GeneralCallbackResult) => void
+    type MakeBluetoothPairSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type MakePhoneCallCompleteCallback = (res: GeneralCallbackResult) => void
+    type MakePhoneCallCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type MakePhoneCallFailCallback = (res: GeneralCallbackResult) => void
+    type MakePhoneCallFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type MakePhoneCallSuccessCallback = (res: GeneralCallbackResult) => void
+    type MakePhoneCallSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 监听 media query 状态变化的回调函数 */
-    type MediaQueryObserverObserveCallback = (result: MediaQueryObserverObserveCallbackResult) => void
+    type MediaQueryObserverObserveCallback = (result: MediaQueryObserverObserveCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type MkdirCompleteCallback = (res: GeneralCallbackResult) => void
+    type MkdirCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type MkdirFailCallback = (result: MkdirFailCallbackResult) => void
+    type MkdirFailCallback = (result: MkdirFailCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type MkdirSuccessCallback = (res: GeneralCallbackResult) => void
+    type MkdirSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type MoveAlongCompleteCallback = (res: GeneralCallbackResult) => void
+    type MoveAlongCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type MoveAlongFailCallback = (res: GeneralCallbackResult) => void
+    type MoveAlongFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type MoveAlongSuccessCallback = (res: GeneralCallbackResult) => void
+    type MoveAlongSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type MoveToLocationCompleteCallback = (res: GeneralCallbackResult) => void
+    type MoveToLocationCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type MoveToLocationFailCallback = (res: GeneralCallbackResult) => void
+    type MoveToLocationFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type MoveToLocationSuccessCallback = (res: GeneralCallbackResult) => void
+    type MoveToLocationSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type MuteCompleteCallback = (res: GeneralCallbackResult) => void
+    type MuteCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type MuteFailCallback = (res: GeneralCallbackResult) => void
+    type MuteFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type MuteSuccessCallback = (res: GeneralCallbackResult) => void
+    type MuteSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type NavigateBackCompleteCallback = (res: GeneralCallbackResult) => void
+    type NavigateBackCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type NavigateBackFailCallback = (res: GeneralCallbackResult) => void
+    type NavigateBackFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type NavigateBackMiniProgramCompleteCallback = (res: GeneralCallbackResult) => void
+    type NavigateBackMiniProgramCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type NavigateBackMiniProgramFailCallback = (res: GeneralCallbackResult) => void
+    type NavigateBackMiniProgramFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type NavigateBackMiniProgramSuccessCallback = (res: GeneralCallbackResult) => void
+    type NavigateBackMiniProgramSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type NavigateBackSuccessCallback = (res: GeneralCallbackResult) => void
+    type NavigateBackSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type NavigateToCompleteCallback = (res: GeneralCallbackResult) => void
+    type NavigateToCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type NavigateToFailCallback = (res: GeneralCallbackResult) => void
+    type NavigateToFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type NavigateToMiniProgramCompleteCallback = (res: GeneralCallbackResult) => void
+    type NavigateToMiniProgramCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type NavigateToMiniProgramFailCallback = (res: GeneralCallbackResult) => void
+    type NavigateToMiniProgramFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type NavigateToMiniProgramSuccessCallback = (res: GeneralCallbackResult) => void
+    type NavigateToMiniProgramSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type NavigateToSuccessCallback = (result: NavigateToSuccessCallbackResult) => void
+    type NavigateToSuccessCallback = (result: NavigateToSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type NdefCloseCompleteCallback = (res: Nfcrwerror) => void
+    type NdefCloseCompleteCallback = (res: Nfcrwerror) => void;
     /** 接口调用失败的回调函数 */
-    type NdefCloseFailCallback = (res: Nfcrwerror) => void
+    type NdefCloseFailCallback = (res: Nfcrwerror) => void;
     /** 接口调用成功的回调函数 */
-    type NdefCloseSuccessCallback = (res: Nfcrwerror) => void
+    type NdefCloseSuccessCallback = (res: Nfcrwerror) => void;
     /** 回调函数，在执行 `SelectorQuery.exec` 方法后，返回节点信息。 */
-    type NodeCallback = (result: NodeCallbackResult) => void
+    type NodeCallback = (result: NodeCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type NotifyBLECharacteristicValueChangeCompleteCallback = (res: BluetoothError) => void
+    type NotifyBLECharacteristicValueChangeCompleteCallback = (res: BluetoothError) => void;
     /** 接口调用失败的回调函数 */
-    type NotifyBLECharacteristicValueChangeFailCallback = (res: BluetoothError) => void
+    type NotifyBLECharacteristicValueChangeFailCallback = (res: BluetoothError) => void;
     /** 接口调用成功的回调函数 */
-    type NotifyBLECharacteristicValueChangeSuccessCallback = (res: BluetoothError) => void
+    type NotifyBLECharacteristicValueChangeSuccessCallback = (res: BluetoothError) => void;
     /** 小程序切后台事件的回调函数 */
-    type OffAppHideCallback = (res: GeneralCallbackResult) => void
+    type OffAppHideCallback = (res: GeneralCallbackResult) => void;
     /** 小程序切前台事件的回调函数 */
-    type OffAppShowCallback = (result: OnAppShowCallbackResult) => void
+    type OffAppShowCallback = (result: OnAppShowCallbackResult) => void;
     /** 音频因为受到系统占用而被中断开始事件的回调函数 */
-    type OffAudioInterruptionBeginCallback = (res: GeneralCallbackResult) => void
+    type OffAudioInterruptionBeginCallback = (res: GeneralCallbackResult) => void;
     /** 音频中断结束事件的回调函数 */
-    type OffAudioInterruptionEndCallback = (res: GeneralCallbackResult) => void
+    type OffAudioInterruptionEndCallback = (res: GeneralCallbackResult) => void;
     /** 当前外围设备被连接或断开连接事件的回调函数 */
     type OffBLEPeripheralConnectionStateChangedCallback = (
         result: OnBLEPeripheralConnectionStateChangedCallbackResult,
-    ) => void
+    ) => void;
     /** iBeacon 服务状态变化事件的回调函数 */
-    type OffBeaconServiceChangeCallback = (res: GeneralCallbackResult) => void
+    type OffBeaconServiceChangeCallback = (res: GeneralCallbackResult) => void;
     /** iBeacon 设备更新事件的回调函数 */
-    type OffBeaconUpdateCallback = (res: GeneralCallbackResult) => void
+    type OffBeaconUpdateCallback = (res: GeneralCallbackResult) => void;
     /** 音频进入可以播放状态的事件的回调函数 */
-    type OffCanplayCallback = (res: GeneralCallbackResult) => void
+    type OffCanplayCallback = (res: GeneralCallbackResult) => void;
     /** 已连接的设备请求读当前外围设备的特征值事件的回调函数 */
-    type OffCharacteristicReadRequestCallback = (result: OnCharacteristicReadRequestCallbackResult) => void
+    type OffCharacteristicReadRequestCallback = (result: OnCharacteristicReadRequestCallbackResult) => void;
     /** 特征值订阅事件的回调函数 */
-    type OffCharacteristicSubscribedCallback = (result: OnCharacteristicSubscribedCallbackResult) => void
+    type OffCharacteristicSubscribedCallback = (result: OnCharacteristicSubscribedCallbackResult) => void;
     /** 取消特征值订阅事件的回调函数 */
-    type OffCharacteristicUnsubscribedCallback = (result: OnCharacteristicSubscribedCallbackResult) => void
+    type OffCharacteristicUnsubscribedCallback = (result: OnCharacteristicSubscribedCallbackResult) => void;
     /** 已连接的设备请求写当前外围设备的特征值事件的回调函数 */
-    type OffCharacteristicWriteRequestCallback = (result: OnCharacteristicWriteRequestCallbackResult) => void
+    type OffCharacteristicWriteRequestCallback = (result: OnCharacteristicWriteRequestCallbackResult) => void;
     /** 的回调函数 */
-    type OffDiscoveredCallback = (result: OnDiscoveredCallbackResult) => void
+    type OffDiscoveredCallback = (result: OnDiscoveredCallbackResult) => void;
     /** 音频自然播放至结束的事件的回调函数 */
-    type OffEndedCallback = (res: GeneralCallbackResult) => void
+    type OffEndedCallback = (res: GeneralCallbackResult) => void;
     /** HTTP Response Header 事件的回调函数 */
-    type OffHeadersReceivedCallback = (result: OnHeadersReceivedCallbackResult) => void
+    type OffHeadersReceivedCallback = (result: OnHeadersReceivedCallbackResult) => void;
     /** 开始监听数据包消息的事件的回调函数 */
-    type OffListeningCallback = (res: GeneralCallbackResult) => void
-    type OffLoadCallback = (res: GeneralCallbackResult) => void
+    type OffListeningCallback = (res: GeneralCallbackResult) => void;
+    type OffLoadCallback = (res: GeneralCallbackResult) => void;
     /** mDNS 服务停止搜索的事件的回调函数 */
-    type OffLocalServiceDiscoveryStopCallback = (res: GeneralCallbackResult) => void
+    type OffLocalServiceDiscoveryStopCallback = (res: GeneralCallbackResult) => void;
     /** mDNS 服务发现的事件的回调函数 */
-    type OffLocalServiceFoundCallback = (result: OnLocalServiceFoundCallbackResult) => void
+    type OffLocalServiceFoundCallback = (result: OnLocalServiceFoundCallbackResult) => void;
     /** mDNS 服务离开的事件的回调函数 */
-    type OffLocalServiceLostCallback = (result: OnLocalServiceLostCallbackResult) => void
+    type OffLocalServiceLostCallback = (result: OnLocalServiceLostCallbackResult) => void;
     /** mDNS 服务解析失败的事件的回调函数 */
-    type OffLocalServiceResolveFailCallback = (result: OnLocalServiceLostCallbackResult) => void
+    type OffLocalServiceResolveFailCallback = (result: OnLocalServiceLostCallbackResult) => void;
     /** 实时地理位置变化事件的回调函数 */
-    type OffLocationChangeCallback = (result: OnLocationChangeCallbackResult) => void
+    type OffLocationChangeCallback = (result: OnLocationChangeCallbackResult) => void;
     /** 收到消息的事件的回调函数 */
-    type OffMessageCallback = (result: UDPSocketOnMessageCallbackResult) => void
+    type OffMessageCallback = (result: UDPSocketOnMessageCallbackResult) => void;
     /** 小程序要打开的页面不存在事件的回调函数 */
-    type OffPageNotFoundCallback = (result: OnPageNotFoundCallbackResult) => void
+    type OffPageNotFoundCallback = (result: OnPageNotFoundCallbackResult) => void;
     /** 音频暂停事件的回调函数 */
-    type OffPauseCallback = (res: GeneralCallbackResult) => void
+    type OffPauseCallback = (res: GeneralCallbackResult) => void;
     /** 音频播放事件的回调函数 */
-    type OffPlayCallback = (res: GeneralCallbackResult) => void
+    type OffPlayCallback = (res: GeneralCallbackResult) => void;
     /** 音频完成跳转操作的事件的回调函数 */
-    type OffSeekedCallback = (res: GeneralCallbackResult) => void
+    type OffSeekedCallback = (res: GeneralCallbackResult) => void;
     /** 音频进行跳转操作的事件的回调函数 */
-    type OffSeekingCallback = (res: GeneralCallbackResult) => void
+    type OffSeekingCallback = (res: GeneralCallbackResult) => void;
     /** 音频停止事件的回调函数 */
-    type OffStopCallback = (res: GeneralCallbackResult) => void
+    type OffStopCallback = (res: GeneralCallbackResult) => void;
     /** 系统主题改变事件的回调函数 */
-    type OffThemeChangeCallback = (result: OnThemeChangeCallbackResult) => void
+    type OffThemeChangeCallback = (result: OnThemeChangeCallbackResult) => void;
     /** 音频播放进度更新事件的回调函数 */
-    type OffTimeUpdateCallback = (res: GeneralCallbackResult) => void
+    type OffTimeUpdateCallback = (res: GeneralCallbackResult) => void;
     /** 未处理的 Promise 拒绝事件的回调函数 */
-    type OffUnhandledRejectionCallback = (result: OnUnhandledRejectionCallbackResult) => void
+    type OffUnhandledRejectionCallback = (result: OnUnhandledRejectionCallbackResult) => void;
     /** 实时语音通话成员视频状态变化事件的回调函数 */
-    type OffVoIPVideoMembersChangedCallback = (result: OnVoIPVideoMembersChangedCallbackResult) => void
+    type OffVoIPVideoMembersChangedCallback = (result: OnVoIPVideoMembersChangedCallbackResult) => void;
     /** 音频加载中事件的回调函数 */
-    type OffWaitingCallback = (res: GeneralCallbackResult) => void
+    type OffWaitingCallback = (res: GeneralCallbackResult) => void;
     /** 窗口尺寸变化事件的回调函数 */
-    type OffWindowResizeCallback = (result: OnWindowResizeCallbackResult) => void
+    type OffWindowResizeCallback = (result: OnWindowResizeCallbackResult) => void;
     /** 加速度数据事件的回调函数 */
-    type OnAccelerometerChangeCallback = (result: OnAccelerometerChangeCallbackResult) => void
+    type OnAccelerometerChangeCallback = (result: OnAccelerometerChangeCallbackResult) => void;
     /** 小程序错误事件的回调函数 */
     type OnAppErrorCallback = (
         /** 错误信息，包含堆栈 */
         error: string,
-    ) => void
+    ) => void;
     /** 小程序切后台事件的回调函数 */
-    type OnAppHideCallback = (res: GeneralCallbackResult) => void
+    type OnAppHideCallback = (res: GeneralCallbackResult) => void;
     /** 小程序切前台事件的回调函数 */
-    type OnAppShowCallback = (result: OnAppShowCallbackResult) => void
+    type OnAppShowCallback = (result: OnAppShowCallbackResult) => void;
     /** 音频因为受到系统占用而被中断开始事件的回调函数 */
-    type OnAudioInterruptionBeginCallback = (res: GeneralCallbackResult) => void
+    type OnAudioInterruptionBeginCallback = (res: GeneralCallbackResult) => void;
     /** 音频中断结束事件的回调函数 */
-    type OnAudioInterruptionEndCallback = (res: GeneralCallbackResult) => void
+    type OnAudioInterruptionEndCallback = (res: GeneralCallbackResult) => void;
     /** 低功耗蓝牙设备的特征值变化事件的回调函数 */
-    type OnBLECharacteristicValueChangeCallback = (result: OnBLECharacteristicValueChangeCallbackResult) => void
+    type OnBLECharacteristicValueChangeCallback = (result: OnBLECharacteristicValueChangeCallbackResult) => void;
     /** 低功耗蓝牙连接状态的改变事件的回调函数 */
-    type OnBLEConnectionStateChangeCallback = (result: OnBLEConnectionStateChangeCallbackResult) => void
+    type OnBLEConnectionStateChangeCallback = (result: OnBLEConnectionStateChangeCallbackResult) => void;
     /** 当前外围设备被连接或断开连接事件的回调函数 */
     type OnBLEPeripheralConnectionStateChangedCallback = (
         result: OnBLEPeripheralConnectionStateChangedCallbackResult,
-    ) => void
+    ) => void;
     /** 音乐暂停事件的回调函数 */
-    type OnBackgroundAudioPauseCallback = (res: GeneralCallbackResult) => void
+    type OnBackgroundAudioPauseCallback = (res: GeneralCallbackResult) => void;
     /** 音乐播放事件的回调函数 */
-    type OnBackgroundAudioPlayCallback = (res: GeneralCallbackResult) => void
+    type OnBackgroundAudioPlayCallback = (res: GeneralCallbackResult) => void;
     /** 音乐停止事件的回调函数 */
-    type OnBackgroundAudioStopCallback = (res: GeneralCallbackResult) => void
+    type OnBackgroundAudioStopCallback = (res: GeneralCallbackResult) => void;
     /** 的回调函数 */
-    type OnBackgroundFetchDataCallback = (result: OnBackgroundFetchDataCallbackResult) => void
+    type OnBackgroundFetchDataCallback = (result: OnBackgroundFetchDataCallbackResult) => void;
     /** iBeacon 服务状态变化事件的回调函数 */
-    type OnBeaconServiceChangeCallback = (result: OnBeaconServiceChangeCallbackResult) => void
+    type OnBeaconServiceChangeCallback = (result: OnBeaconServiceChangeCallbackResult) => void;
     /** iBeacon 设备更新事件的回调函数 */
-    type OnBeaconUpdateCallback = (result: OnBeaconUpdateCallbackResult) => void
+    type OnBeaconUpdateCallback = (result: OnBeaconUpdateCallbackResult) => void;
     /** 蓝牙适配器状态变化事件的回调函数 */
-    type OnBluetoothAdapterStateChangeCallback = (result: OnBluetoothAdapterStateChangeCallbackResult) => void
+    type OnBluetoothAdapterStateChangeCallback = (result: OnBluetoothAdapterStateChangeCallbackResult) => void;
     /** 寻找到新设备的事件的回调函数 */
-    type OnBluetoothDeviceFoundCallback = (result: OnBluetoothDeviceFoundCallbackResult) => void
+    type OnBluetoothDeviceFoundCallback = (result: OnBluetoothDeviceFoundCallbackResult) => void;
     /** 回调函数 */
-    type OnCameraFrameCallback = (result: OnCameraFrameCallbackResult) => void
-    type OnCanplayCallback = (res: GeneralCallbackResult) => void
+    type OnCameraFrameCallback = (result: OnCameraFrameCallbackResult) => void;
+    type OnCanplayCallback = (res: GeneralCallbackResult) => void;
     /** 已连接的设备请求读当前外围设备的特征值事件的回调函数 */
-    type OnCharacteristicReadRequestCallback = (result: OnCharacteristicReadRequestCallbackResult) => void
+    type OnCharacteristicReadRequestCallback = (result: OnCharacteristicReadRequestCallbackResult) => void;
     /** 特征值订阅事件的回调函数 */
-    type OnCharacteristicSubscribedCallback = (result: OnCharacteristicSubscribedCallbackResult) => void
+    type OnCharacteristicSubscribedCallback = (result: OnCharacteristicSubscribedCallbackResult) => void;
     /** 取消特征值订阅事件的回调函数 */
-    type OnCharacteristicUnsubscribedCallback = (result: OnCharacteristicSubscribedCallbackResult) => void
+    type OnCharacteristicUnsubscribedCallback = (result: OnCharacteristicSubscribedCallbackResult) => void;
     /** 已连接的设备请求写当前外围设备的特征值事件的回调函数 */
-    type OnCharacteristicWriteRequestCallback = (result: OnCharacteristicWriteRequestCallbackResult) => void
+    type OnCharacteristicWriteRequestCallback = (result: OnCharacteristicWriteRequestCallbackResult) => void;
     /** 向微信后台请求检查更新结果事件的回调函数 */
-    type OnCheckForUpdateCallback = (result: OnCheckForUpdateCallbackResult) => void
+    type OnCheckForUpdateCallback = (result: OnCheckForUpdateCallbackResult) => void;
     /** 罗盘数据变化事件的回调函数 */
-    type OnCompassChangeCallback = (result: OnCompassChangeCallbackResult) => void
+    type OnCompassChangeCallback = (result: OnCompassChangeCallbackResult) => void;
     /** 设备方向变化事件的回调函数 */
-    type OnDeviceMotionChangeCallback = (result: OnDeviceMotionChangeCallbackResult) => void
+    type OnDeviceMotionChangeCallback = (result: OnDeviceMotionChangeCallbackResult) => void;
     /** 的回调函数 */
-    type OnDiscoveredCallback = (result: OnDiscoveredCallbackResult) => void
-    type OnEndedCallback = (res: GeneralCallbackResult) => void
+    type OnDiscoveredCallback = (result: OnDiscoveredCallbackResult) => void;
+    type OnEndedCallback = (res: GeneralCallbackResult) => void;
     /** 已录制完指定帧大小的文件事件的回调函数 */
-    type OnFrameRecordedCallback = (result: OnFrameRecordedCallbackResult) => void
+    type OnFrameRecordedCallback = (result: OnFrameRecordedCallbackResult) => void;
     /** 获取到 Wi-Fi 列表数据事件的回调函数 */
-    type OnGetWifiListCallback = (result: OnGetWifiListCallbackResult) => void
+    type OnGetWifiListCallback = (result: OnGetWifiListCallbackResult) => void;
     /** 陀螺仪数据变化事件的回调函数 */
-    type OnGyroscopeChangeCallback = (result: OnGyroscopeChangeCallbackResult) => void
+    type OnGyroscopeChangeCallback = (result: OnGyroscopeChangeCallbackResult) => void;
     /** 接收 NFC 设备消息事件的回调函数 */
-    type OnHCEMessageCallback = (result: OnHCEMessageCallbackResult) => void
+    type OnHCEMessageCallback = (result: OnHCEMessageCallbackResult) => void;
     /** HTTP Response Header 事件的回调函数 */
-    type OnHeadersReceivedCallback = (result: OnHeadersReceivedCallbackResult) => void
+    type OnHeadersReceivedCallback = (result: OnHeadersReceivedCallbackResult) => void;
     /** 录音因为受到系统占用而被中断开始事件的回调函数 */
-    type OnInterruptionBeginCallback = (res: GeneralCallbackResult) => void
+    type OnInterruptionBeginCallback = (res: GeneralCallbackResult) => void;
     /** 录音中断结束事件的回调函数 */
-    type OnInterruptionEndCallback = (res: GeneralCallbackResult) => void
-    type OnKeyboardHeightChangeCallback = (result: OnKeyboardHeightChangeCallbackResult) => void
+    type OnInterruptionEndCallback = (res: GeneralCallbackResult) => void;
+    type OnKeyboardHeightChangeCallback = (result: OnKeyboardHeightChangeCallbackResult) => void;
     /** 开始监听数据包消息的事件的回调函数 */
-    type OnListeningCallback = (res: GeneralCallbackResult) => void
-    type OnLoadCallback = (res: GeneralCallbackResult) => void
+    type OnListeningCallback = (res: GeneralCallbackResult) => void;
+    type OnLoadCallback = (res: GeneralCallbackResult) => void;
     /** mDNS 服务停止搜索的事件的回调函数 */
-    type OnLocalServiceDiscoveryStopCallback = (res: GeneralCallbackResult) => void
+    type OnLocalServiceDiscoveryStopCallback = (res: GeneralCallbackResult) => void;
     /** mDNS 服务发现的事件的回调函数 */
-    type OnLocalServiceFoundCallback = (result: OnLocalServiceFoundCallbackResult) => void
+    type OnLocalServiceFoundCallback = (result: OnLocalServiceFoundCallbackResult) => void;
     /** mDNS 服务离开的事件的回调函数 */
-    type OnLocalServiceLostCallback = (result: OnLocalServiceLostCallbackResult) => void
+    type OnLocalServiceLostCallback = (result: OnLocalServiceLostCallbackResult) => void;
     /** mDNS 服务解析失败的事件的回调函数 */
-    type OnLocalServiceResolveFailCallback = (result: OnLocalServiceLostCallbackResult) => void
+    type OnLocalServiceResolveFailCallback = (result: OnLocalServiceLostCallbackResult) => void;
     /** 实时地理位置变化事件的回调函数 */
-    type OnLocationChangeCallback = (result: OnLocationChangeCallbackResult) => void
+    type OnLocationChangeCallback = (result: OnLocationChangeCallbackResult) => void;
     /** 内存不足告警事件的回调函数 */
-    type OnMemoryWarningCallback = (result: OnMemoryWarningCallbackResult) => void
+    type OnMemoryWarningCallback = (result: OnMemoryWarningCallbackResult) => void;
     /** 网络状态变化事件的回调函数 */
-    type OnNetworkStatusChangeCallback = (result: OnNetworkStatusChangeCallbackResult) => void
+    type OnNetworkStatusChangeCallback = (result: OnNetworkStatusChangeCallbackResult) => void;
     /** 用户在系统音乐播放面板点击下一曲事件的回调函数 */
-    type OnNextCallback = (res: GeneralCallbackResult) => void
+    type OnNextCallback = (res: GeneralCallbackResult) => void;
     /** WebSocket 连接打开事件的回调函数 */
-    type OnOpenCallback = (result: OnOpenCallbackResult) => void
+    type OnOpenCallback = (result: OnOpenCallbackResult) => void;
     /** 小程序要打开的页面不存在事件的回调函数 */
-    type OnPageNotFoundCallback = (result: OnPageNotFoundCallbackResult) => void
-    type OnPauseCallback = (res: GeneralCallbackResult) => void
-    type OnPlayCallback = (res: GeneralCallbackResult) => void
+    type OnPageNotFoundCallback = (result: OnPageNotFoundCallbackResult) => void;
+    type OnPauseCallback = (res: GeneralCallbackResult) => void;
+    type OnPlayCallback = (res: GeneralCallbackResult) => void;
     /** 用户在系统音乐播放面板点击上一曲事件的回调函数 */
-    type OnPrevCallback = (res: GeneralCallbackResult) => void
+    type OnPrevCallback = (res: GeneralCallbackResult) => void;
     /** 录音继续事件的回调函数 */
-    type OnResumeCallback = (res: GeneralCallbackResult) => void
-    type OnSeekedCallback = (res: GeneralCallbackResult) => void
-    type OnSeekingCallback = (res: GeneralCallbackResult) => void
+    type OnResumeCallback = (res: GeneralCallbackResult) => void;
+    type OnSeekedCallback = (res: GeneralCallbackResult) => void;
+    type OnSeekingCallback = (res: GeneralCallbackResult) => void;
     /** WebSocket 连接关闭事件的回调函数 */
-    type OnSocketCloseCallback = (result: SocketTaskOnCloseCallbackResult) => void
+    type OnSocketCloseCallback = (result: SocketTaskOnCloseCallbackResult) => void;
     /** WebSocket 错误事件的回调函数 */
-    type OnSocketErrorCallback = (result: UDPSocketOnErrorCallbackResult) => void
+    type OnSocketErrorCallback = (result: UDPSocketOnErrorCallbackResult) => void;
     /** WebSocket 接受到服务器的消息事件的回调函数 */
-    type OnSocketMessageCallback = (result: SocketTaskOnMessageCallbackResult) => void
+    type OnSocketMessageCallback = (result: SocketTaskOnMessageCallbackResult) => void;
     /** WebSocket 连接打开事件的回调函数 */
-    type OnSocketOpenCallback = (result: OnSocketOpenCallbackResult) => void
+    type OnSocketOpenCallback = (result: OnSocketOpenCallbackResult) => void;
     /** 录音开始事件的回调函数 */
-    type OnStartCallback = (res: GeneralCallbackResult) => void
+    type OnStartCallback = (res: GeneralCallbackResult) => void;
     /** 系统主题改变事件的回调函数 */
-    type OnThemeChangeCallback = (result: OnThemeChangeCallbackResult) => void
-    type OnTimeUpdateCallback = (res: GeneralCallbackResult) => void
+    type OnThemeChangeCallback = (result: OnThemeChangeCallbackResult) => void;
+    type OnTimeUpdateCallback = (res: GeneralCallbackResult) => void;
     /** 未处理的 Promise 拒绝事件的回调函数 */
-    type OnUnhandledRejectionCallback = (result: OnUnhandledRejectionCallbackResult) => void
+    type OnUnhandledRejectionCallback = (result: OnUnhandledRejectionCallbackResult) => void;
     /** 小程序更新失败事件的回调函数 */
-    type OnUpdateFailedCallback = (res: GeneralCallbackResult) => void
+    type OnUpdateFailedCallback = (res: GeneralCallbackResult) => void;
     /** 小程序有版本更新事件的回调函数 */
-    type OnUpdateReadyCallback = (res: GeneralCallbackResult) => void
+    type OnUpdateReadyCallback = (res: GeneralCallbackResult) => void;
     /** 用户主动截屏事件的回调函数 */
-    type OnUserCaptureScreenCallback = (res: GeneralCallbackResult) => void
+    type OnUserCaptureScreenCallback = (res: GeneralCallbackResult) => void;
     /** 被动断开实时语音通话事件的回调函数 */
-    type OnVoIPChatInterruptedCallback = (result: OnVoIPChatInterruptedCallbackResult) => void
+    type OnVoIPChatInterruptedCallback = (result: OnVoIPChatInterruptedCallbackResult) => void;
     /** 实时语音通话成员在线状态变化事件的回调函数 */
-    type OnVoIPChatMembersChangedCallback = (result: OnVoIPChatMembersChangedCallbackResult) => void
+    type OnVoIPChatMembersChangedCallback = (result: OnVoIPChatMembersChangedCallbackResult) => void;
     /** 实时语音通话成员通话状态变化事件的回调函数 */
-    type OnVoIPChatSpeakersChangedCallback = (result: OnVoIPChatSpeakersChangedCallbackResult) => void
+    type OnVoIPChatSpeakersChangedCallback = (result: OnVoIPChatSpeakersChangedCallbackResult) => void;
     /** 实时语音通话成员视频状态变化事件的回调函数 */
-    type OnVoIPVideoMembersChangedCallback = (result: OnVoIPVideoMembersChangedCallbackResult) => void
+    type OnVoIPVideoMembersChangedCallback = (result: OnVoIPVideoMembersChangedCallbackResult) => void;
     /** 音频加载中事件的回调函数 */
-    type OnWaitingCallback = (res: GeneralCallbackResult) => void
+    type OnWaitingCallback = (res: GeneralCallbackResult) => void;
     /** 连接上 Wi-Fi 的事件的回调函数 */
-    type OnWifiConnectedCallback = (result: OnWifiConnectedCallbackResult) => void
+    type OnWifiConnectedCallback = (result: OnWifiConnectedCallbackResult) => void;
     /** 窗口尺寸变化事件的回调函数 */
-    type OnWindowResizeCallback = (result: OnWindowResizeCallbackResult) => void
+    type OnWindowResizeCallback = (result: OnWindowResizeCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type OpenBluetoothAdapterCompleteCallback = (res: BluetoothError) => void
+    type OpenBluetoothAdapterCompleteCallback = (res: BluetoothError) => void;
     /** 接口调用失败的回调函数 */
-    type OpenBluetoothAdapterFailCallback = (res: BluetoothError) => void
+    type OpenBluetoothAdapterFailCallback = (res: BluetoothError) => void;
     /** 接口调用成功的回调函数 */
-    type OpenBluetoothAdapterSuccessCallback = (res: BluetoothError) => void
+    type OpenBluetoothAdapterSuccessCallback = (res: BluetoothError) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type OpenCardCompleteCallback = (res: GeneralCallbackResult) => void
+    type OpenCardCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type OpenCardFailCallback = (res: GeneralCallbackResult) => void
+    type OpenCardFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type OpenCardSuccessCallback = (res: GeneralCallbackResult) => void
+    type OpenCardSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type OpenDocumentCompleteCallback = (res: GeneralCallbackResult) => void
+    type OpenDocumentCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type OpenDocumentFailCallback = (res: GeneralCallbackResult) => void
+    type OpenDocumentFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type OpenDocumentSuccessCallback = (res: GeneralCallbackResult) => void
+    type OpenDocumentSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type OpenLocationCompleteCallback = (res: GeneralCallbackResult) => void
+    type OpenLocationCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type OpenLocationFailCallback = (res: GeneralCallbackResult) => void
+    type OpenLocationFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type OpenLocationSuccessCallback = (res: GeneralCallbackResult) => void
+    type OpenLocationSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type OpenMapAppCompleteCallback = (res: GeneralCallbackResult) => void
+    type OpenMapAppCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type OpenMapAppFailCallback = (res: GeneralCallbackResult) => void
+    type OpenMapAppFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type OpenMapAppSuccessCallback = (res: GeneralCallbackResult) => void
+    type OpenMapAppSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type OpenSettingCompleteCallback = (res: GeneralCallbackResult) => void
+    type OpenSettingCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type OpenSettingFailCallback = (res: GeneralCallbackResult) => void
+    type OpenSettingFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type OpenSettingSuccessCallback = (result: OpenSettingSuccessCallbackResult) => void
+    type OpenSettingSuccessCallback = (result: OpenSettingSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type OpenVideoEditorCompleteCallback = (res: GeneralCallbackResult) => void
+    type OpenVideoEditorCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type OpenVideoEditorFailCallback = (res: GeneralCallbackResult) => void
+    type OpenVideoEditorFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type OpenVideoEditorSuccessCallback = (result: OpenVideoEditorSuccessCallbackResult) => void
+    type OpenVideoEditorSuccessCallback = (result: OpenVideoEditorSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type PageScrollToCompleteCallback = (res: GeneralCallbackResult) => void
+    type PageScrollToCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type PageScrollToFailCallback = (res: GeneralCallbackResult) => void
+    type PageScrollToFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type PageScrollToSuccessCallback = (res: GeneralCallbackResult) => void
+    type PageScrollToSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type PauseBGMCompleteCallback = (res: GeneralCallbackResult) => void
+    type PauseBGMCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type PauseBGMFailCallback = (res: GeneralCallbackResult) => void
+    type PauseBGMFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type PauseBGMSuccessCallback = (res: GeneralCallbackResult) => void
+    type PauseBGMSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type PauseBackgroundAudioCompleteCallback = (res: GeneralCallbackResult) => void
+    type PauseBackgroundAudioCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type PauseBackgroundAudioFailCallback = (res: GeneralCallbackResult) => void
+    type PauseBackgroundAudioFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type PauseBackgroundAudioSuccessCallback = (res: GeneralCallbackResult) => void
+    type PauseBackgroundAudioSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type PauseCompleteCallback = (res: GeneralCallbackResult) => void
+    type PauseCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type PauseFailCallback = (res: GeneralCallbackResult) => void
+    type PauseFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type PauseSuccessCallback = (res: GeneralCallbackResult) => void
+    type PauseSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type PauseVoiceCompleteCallback = (res: GeneralCallbackResult) => void
+    type PauseVoiceCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type PauseVoiceFailCallback = (res: GeneralCallbackResult) => void
+    type PauseVoiceFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type PauseVoiceSuccessCallback = (res: GeneralCallbackResult) => void
+    type PauseVoiceSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type PlayBGMCompleteCallback = (res: GeneralCallbackResult) => void
+    type PlayBGMCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type PlayBGMFailCallback = (res: GeneralCallbackResult) => void
+    type PlayBGMFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type PlayBGMSuccessCallback = (res: GeneralCallbackResult) => void
+    type PlayBGMSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type PlayBackgroundAudioCompleteCallback = (res: GeneralCallbackResult) => void
+    type PlayBackgroundAudioCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type PlayBackgroundAudioFailCallback = (res: GeneralCallbackResult) => void
+    type PlayBackgroundAudioFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type PlayBackgroundAudioSuccessCallback = (res: GeneralCallbackResult) => void
+    type PlayBackgroundAudioSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type PlayCompleteCallback = (res: GeneralCallbackResult) => void
+    type PlayCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type PlayFailCallback = (res: GeneralCallbackResult) => void
+    type PlayFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type PlaySuccessCallback = (res: GeneralCallbackResult) => void
+    type PlaySuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type PlayVoiceCompleteCallback = (res: GeneralCallbackResult) => void
+    type PlayVoiceCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type PlayVoiceFailCallback = (res: GeneralCallbackResult) => void
+    type PlayVoiceFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type PlayVoiceSuccessCallback = (res: GeneralCallbackResult) => void
+    type PlayVoiceSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type PreviewImageCompleteCallback = (res: GeneralCallbackResult) => void
+    type PreviewImageCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type PreviewImageFailCallback = (res: GeneralCallbackResult) => void
+    type PreviewImageFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type PreviewImageSuccessCallback = (res: GeneralCallbackResult) => void
+    type PreviewImageSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type PreviewMediaCompleteCallback = (res: GeneralCallbackResult) => void
+    type PreviewMediaCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type PreviewMediaFailCallback = (res: GeneralCallbackResult) => void
+    type PreviewMediaFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type PreviewMediaSuccessCallback = (res: GeneralCallbackResult) => void
+    type PreviewMediaSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type ReLaunchCompleteCallback = (res: GeneralCallbackResult) => void
+    type ReLaunchCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type ReLaunchFailCallback = (res: GeneralCallbackResult) => void
+    type ReLaunchFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type ReLaunchSuccessCallback = (res: GeneralCallbackResult) => void
+    type ReLaunchSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type ReadBLECharacteristicValueCompleteCallback = (res: BluetoothError) => void
+    type ReadBLECharacteristicValueCompleteCallback = (res: BluetoothError) => void;
     /** 接口调用失败的回调函数 */
-    type ReadBLECharacteristicValueFailCallback = (res: BluetoothError) => void
+    type ReadBLECharacteristicValueFailCallback = (res: BluetoothError) => void;
     /** 接口调用成功的回调函数 */
-    type ReadBLECharacteristicValueSuccessCallback = (res: BluetoothError) => void
+    type ReadBLECharacteristicValueSuccessCallback = (res: BluetoothError) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type ReadFileCompleteCallback = (res: GeneralCallbackResult) => void
+    type ReadFileCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type ReadFileFailCallback = (result: ReadFileFailCallbackResult) => void
+    type ReadFileFailCallback = (result: ReadFileFailCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type ReadFileSuccessCallback = (result: ReadFileSuccessCallbackResult) => void
+    type ReadFileSuccessCallback = (result: ReadFileSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type ReaddirCompleteCallback = (res: GeneralCallbackResult) => void
+    type ReaddirCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type ReaddirFailCallback = (result: ReaddirFailCallbackResult) => void
+    type ReaddirFailCallback = (result: ReaddirFailCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type ReaddirSuccessCallback = (result: ReaddirSuccessCallbackResult) => void
+    type ReaddirSuccessCallback = (result: ReaddirSuccessCallbackResult) => void;
     /** 录音结束事件的回调函数 */
-    type RecorderManagerOnStopCallback = (result: OnStopCallbackResult) => void
+    type RecorderManagerOnStopCallback = (result: OnStopCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type RedirectToCompleteCallback = (res: GeneralCallbackResult) => void
+    type RedirectToCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type RedirectToFailCallback = (res: GeneralCallbackResult) => void
+    type RedirectToFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type RedirectToSuccessCallback = (res: GeneralCallbackResult) => void
+    type RedirectToSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type RedoCompleteCallback = (res: GeneralCallbackResult) => void
+    type RedoCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type RedoFailCallback = (res: GeneralCallbackResult) => void
+    type RedoFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type RedoSuccessCallback = (res: GeneralCallbackResult) => void
+    type RedoSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type RemoveCustomLayerCompleteCallback = (res: GeneralCallbackResult) => void
+    type RemoveCustomLayerCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type RemoveCustomLayerFailCallback = (res: GeneralCallbackResult) => void
+    type RemoveCustomLayerFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type RemoveCustomLayerSuccessCallback = (res: GeneralCallbackResult) => void
+    type RemoveCustomLayerSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type RemoveFormatCompleteCallback = (res: GeneralCallbackResult) => void
+    type RemoveFormatCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type RemoveFormatFailCallback = (res: GeneralCallbackResult) => void
+    type RemoveFormatFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type RemoveFormatSuccessCallback = (res: GeneralCallbackResult) => void
+    type RemoveFormatSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type RemoveGroundOverlayCompleteCallback = (res: GeneralCallbackResult) => void
+    type RemoveGroundOverlayCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type RemoveGroundOverlayFailCallback = (res: GeneralCallbackResult) => void
+    type RemoveGroundOverlayFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type RemoveGroundOverlaySuccessCallback = (res: GeneralCallbackResult) => void
+    type RemoveGroundOverlaySuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type RemoveMarkersCompleteCallback = (res: GeneralCallbackResult) => void
+    type RemoveMarkersCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type RemoveMarkersFailCallback = (res: GeneralCallbackResult) => void
+    type RemoveMarkersFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type RemoveMarkersSuccessCallback = (res: GeneralCallbackResult) => void
+    type RemoveMarkersSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type RemoveSavedFileCompleteCallback = (res: GeneralCallbackResult) => void
+    type RemoveSavedFileCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type RemoveSavedFileSuccessCallback = (res: GeneralCallbackResult) => void
+    type RemoveSavedFileSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type RemoveServiceCompleteCallback = (res: GeneralCallbackResult) => void
+    type RemoveServiceCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type RemoveServiceFailCallback = (res: GeneralCallbackResult) => void
+    type RemoveServiceFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type RemoveServiceSuccessCallback = (res: GeneralCallbackResult) => void
+    type RemoveServiceSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type RemoveStorageCompleteCallback = (res: GeneralCallbackResult) => void
+    type RemoveStorageCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type RemoveStorageFailCallback = (res: GeneralCallbackResult) => void
+    type RemoveStorageFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type RemoveStorageSuccessCallback = (res: GeneralCallbackResult) => void
+    type RemoveStorageSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type RemoveTabBarBadgeCompleteCallback = (res: GeneralCallbackResult) => void
+    type RemoveTabBarBadgeCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type RemoveTabBarBadgeFailCallback = (res: GeneralCallbackResult) => void
+    type RemoveTabBarBadgeFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type RemoveTabBarBadgeSuccessCallback = (res: GeneralCallbackResult) => void
+    type RemoveTabBarBadgeSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type RenameCompleteCallback = (res: GeneralCallbackResult) => void
+    type RenameCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type RenameFailCallback = (result: RenameFailCallbackResult) => void
+    type RenameFailCallback = (result: RenameFailCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type RenameSuccessCallback = (res: GeneralCallbackResult) => void
+    type RenameSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type RequestCompleteCallback = (res: GeneralCallbackResult) => void
+    type RequestCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type RequestFailCallback = (res: GeneralCallbackResult) => void
+    type RequestFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type RequestFullScreenCompleteCallback = (res: GeneralCallbackResult) => void
+    type RequestFullScreenCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type RequestFullScreenFailCallback = (res: GeneralCallbackResult) => void
+    type RequestFullScreenFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type RequestFullScreenSuccessCallback = (res: GeneralCallbackResult) => void
+    type RequestFullScreenSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type RequestPaymentCompleteCallback = (res: GeneralCallbackResult) => void
+    type RequestPaymentCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type RequestPaymentFailCallback = (res: GeneralCallbackResult) => void
+    type RequestPaymentFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type RequestPaymentSuccessCallback = (res: GeneralCallbackResult) => void
+    type RequestPaymentSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type RequestSubscribeMessageCompleteCallback = (res: GeneralCallbackResult) => void
+    type RequestSubscribeMessageCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type RequestSubscribeMessageFailCallback = (result: RequestSubscribeMessageFailCallbackResult) => void
+    type RequestSubscribeMessageFailCallback = (result: RequestSubscribeMessageFailCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type RequestSubscribeMessageSuccessCallback = (result: RequestSubscribeMessageSuccessCallbackResult) => void
+    type RequestSubscribeMessageSuccessCallback = (result: RequestSubscribeMessageSuccessCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type RequestSuccessCallback = (result: RequestSuccessCallbackResult) => void
+    type RequestSuccessCallback = (result: RequestSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type ResumeBGMCompleteCallback = (res: GeneralCallbackResult) => void
+    type ResumeBGMCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type ResumeBGMFailCallback = (res: GeneralCallbackResult) => void
+    type ResumeBGMFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type ResumeBGMSuccessCallback = (res: GeneralCallbackResult) => void
+    type ResumeBGMSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type ResumeCompleteCallback = (res: GeneralCallbackResult) => void
+    type ResumeCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type ResumeFailCallback = (res: GeneralCallbackResult) => void
+    type ResumeFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type ResumeSuccessCallback = (res: GeneralCallbackResult) => void
+    type ResumeSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 用户点击 `关闭广告` 按钮的事件的回调函数 */
-    type RewardedVideoAdOffCloseCallback = (result: RewardedVideoAdOnCloseCallbackResult) => void
+    type RewardedVideoAdOffCloseCallback = (result: RewardedVideoAdOnCloseCallbackResult) => void;
     /** 激励视频错误事件的回调函数 */
-    type RewardedVideoAdOffErrorCallback = (result: RewardedVideoAdOnErrorCallbackResult) => void
+    type RewardedVideoAdOffErrorCallback = (result: RewardedVideoAdOnErrorCallbackResult) => void;
     /** 用户点击 `关闭广告` 按钮的事件的回调函数 */
-    type RewardedVideoAdOnCloseCallback = (result: RewardedVideoAdOnCloseCallbackResult) => void
+    type RewardedVideoAdOnCloseCallback = (result: RewardedVideoAdOnCloseCallbackResult) => void;
     /** 激励视频错误事件的回调函数 */
-    type RewardedVideoAdOnErrorCallback = (result: RewardedVideoAdOnErrorCallbackResult) => void
+    type RewardedVideoAdOnErrorCallback = (result: RewardedVideoAdOnErrorCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type RmdirCompleteCallback = (res: GeneralCallbackResult) => void
+    type RmdirCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type RmdirFailCallback = (result: RmdirFailCallbackResult) => void
+    type RmdirFailCallback = (result: RmdirFailCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type RmdirSuccessCallback = (res: GeneralCallbackResult) => void
+    type RmdirSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type SaveFileCompleteCallback = (res: GeneralCallbackResult) => void
+    type SaveFileCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type SaveFileSuccessCallback = (result: SaveFileSuccessCallbackResult) => void
+    type SaveFileSuccessCallback = (result: SaveFileSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type SaveFileToDiskCompleteCallback = (res: GeneralCallbackResult) => void
+    type SaveFileToDiskCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type SaveFileToDiskFailCallback = (res: GeneralCallbackResult) => void
+    type SaveFileToDiskFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type SaveFileToDiskSuccessCallback = (res: GeneralCallbackResult) => void
+    type SaveFileToDiskSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type SaveImageToPhotosAlbumCompleteCallback = (res: GeneralCallbackResult) => void
+    type SaveImageToPhotosAlbumCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type SaveImageToPhotosAlbumFailCallback = (res: GeneralCallbackResult) => void
+    type SaveImageToPhotosAlbumFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type SaveImageToPhotosAlbumSuccessCallback = (res: GeneralCallbackResult) => void
+    type SaveImageToPhotosAlbumSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type SaveVideoToPhotosAlbumCompleteCallback = (res: GeneralCallbackResult) => void
+    type SaveVideoToPhotosAlbumCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type SaveVideoToPhotosAlbumFailCallback = (res: GeneralCallbackResult) => void
+    type SaveVideoToPhotosAlbumFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type SaveVideoToPhotosAlbumSuccessCallback = (res: GeneralCallbackResult) => void
+    type SaveVideoToPhotosAlbumSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type ScanCodeCompleteCallback = (res: GeneralCallbackResult) => void
+    type ScanCodeCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type ScanCodeFailCallback = (res: GeneralCallbackResult) => void
+    type ScanCodeFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type ScanCodeSuccessCallback = (result: ScanCodeSuccessCallbackResult) => void
+    type ScanCodeSuccessCallback = (result: ScanCodeSuccessCallbackResult) => void;
     /** 回调函数，在执行 `SelectorQuery.exec` 方法后，节点信息会在 `callback` 中返回。 */
-    type ScrollOffsetCallback = (result: ScrollOffsetCallbackResult) => void
+    type ScrollOffsetCallback = (result: ScrollOffsetCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type SeekBackgroundAudioCompleteCallback = (res: GeneralCallbackResult) => void
+    type SeekBackgroundAudioCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type SeekBackgroundAudioFailCallback = (res: GeneralCallbackResult) => void
+    type SeekBackgroundAudioFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type SeekBackgroundAudioSuccessCallback = (res: GeneralCallbackResult) => void
+    type SeekBackgroundAudioSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type SendCompleteCallback = (res: GeneralCallbackResult) => void
+    type SendCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type SendFailCallback = (res: GeneralCallbackResult) => void
+    type SendFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type SendHCEMessageCompleteCallback = (res: NFCError) => void
+    type SendHCEMessageCompleteCallback = (res: NFCError) => void;
     /** 接口调用失败的回调函数 */
-    type SendHCEMessageFailCallback = (res: NFCError) => void
+    type SendHCEMessageFailCallback = (res: NFCError) => void;
     /** 接口调用成功的回调函数 */
-    type SendHCEMessageSuccessCallback = (res: NFCError) => void
+    type SendHCEMessageSuccessCallback = (res: NFCError) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type SendSocketMessageCompleteCallback = (res: GeneralCallbackResult) => void
+    type SendSocketMessageCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type SendSocketMessageFailCallback = (res: GeneralCallbackResult) => void
+    type SendSocketMessageFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type SendSocketMessageSuccessCallback = (res: GeneralCallbackResult) => void
+    type SendSocketMessageSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type SendSuccessCallback = (res: GeneralCallbackResult) => void
+    type SendSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type SetBGMVolumeCompleteCallback = (res: GeneralCallbackResult) => void
+    type SetBGMVolumeCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type SetBGMVolumeFailCallback = (res: GeneralCallbackResult) => void
+    type SetBGMVolumeFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type SetBGMVolumeSuccessCallback = (res: GeneralCallbackResult) => void
+    type SetBGMVolumeSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type SetBLEMTUCompleteCallback = (res: GeneralCallbackResult) => void
+    type SetBLEMTUCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type SetBLEMTUFailCallback = (res: GeneralCallbackResult) => void
+    type SetBLEMTUFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type SetBLEMTUSuccessCallback = (res: GeneralCallbackResult) => void
+    type SetBLEMTUSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type SetBackgroundColorCompleteCallback = (res: GeneralCallbackResult) => void
+    type SetBackgroundColorCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type SetBackgroundColorFailCallback = (res: GeneralCallbackResult) => void
+    type SetBackgroundColorFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type SetBackgroundColorSuccessCallback = (res: GeneralCallbackResult) => void
+    type SetBackgroundColorSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type SetBackgroundFetchTokenCompleteCallback = (res: GeneralCallbackResult) => void
+    type SetBackgroundFetchTokenCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type SetBackgroundFetchTokenFailCallback = (res: GeneralCallbackResult) => void
+    type SetBackgroundFetchTokenFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type SetBackgroundFetchTokenSuccessCallback = (res: GeneralCallbackResult) => void
+    type SetBackgroundFetchTokenSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type SetBackgroundTextStyleCompleteCallback = (res: GeneralCallbackResult) => void
+    type SetBackgroundTextStyleCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type SetBackgroundTextStyleFailCallback = (res: GeneralCallbackResult) => void
+    type SetBackgroundTextStyleFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type SetBackgroundTextStyleSuccessCallback = (res: GeneralCallbackResult) => void
+    type SetBackgroundTextStyleSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type SetCenterOffsetCompleteCallback = (res: GeneralCallbackResult) => void
+    type SetCenterOffsetCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type SetCenterOffsetFailCallback = (res: GeneralCallbackResult) => void
+    type SetCenterOffsetFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type SetCenterOffsetSuccessCallback = (res: GeneralCallbackResult) => void
+    type SetCenterOffsetSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type SetClipboardDataCompleteCallback = (res: GeneralCallbackResult) => void
+    type SetClipboardDataCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type SetClipboardDataFailCallback = (res: GeneralCallbackResult) => void
+    type SetClipboardDataFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type SetClipboardDataSuccessCallback = (res: GeneralCallbackResult) => void
+    type SetClipboardDataSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type SetContentsCompleteCallback = (res: GeneralCallbackResult) => void
+    type SetContentsCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type SetContentsFailCallback = (res: GeneralCallbackResult) => void
+    type SetContentsFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type SetContentsSuccessCallback = (res: GeneralCallbackResult) => void
+    type SetContentsSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type SetEnableDebugCompleteCallback = (res: GeneralCallbackResult) => void
+    type SetEnableDebugCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type SetEnableDebugFailCallback = (res: GeneralCallbackResult) => void
+    type SetEnableDebugFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type SetEnableDebugSuccessCallback = (res: GeneralCallbackResult) => void
+    type SetEnableDebugSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type SetInnerAudioOptionCompleteCallback = (res: GeneralCallbackResult) => void
+    type SetInnerAudioOptionCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type SetInnerAudioOptionFailCallback = (res: GeneralCallbackResult) => void
+    type SetInnerAudioOptionFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type SetInnerAudioOptionSuccessCallback = (res: GeneralCallbackResult) => void
+    type SetInnerAudioOptionSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type SetKeepScreenOnCompleteCallback = (res: GeneralCallbackResult) => void
+    type SetKeepScreenOnCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type SetKeepScreenOnFailCallback = (res: GeneralCallbackResult) => void
+    type SetKeepScreenOnFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type SetKeepScreenOnSuccessCallback = (res: GeneralCallbackResult) => void
+    type SetKeepScreenOnSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type SetMICVolumeCompleteCallback = (res: GeneralCallbackResult) => void
+    type SetMICVolumeCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type SetMICVolumeFailCallback = (res: GeneralCallbackResult) => void
+    type SetMICVolumeFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type SetMICVolumeSuccessCallback = (res: GeneralCallbackResult) => void
+    type SetMICVolumeSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type SetNavigationBarColorCompleteCallback = (res: GeneralCallbackResult) => void
+    type SetNavigationBarColorCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type SetNavigationBarColorFailCallback = (res: GeneralCallbackResult) => void
+    type SetNavigationBarColorFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type SetNavigationBarColorSuccessCallback = (res: GeneralCallbackResult) => void
+    type SetNavigationBarColorSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type SetNavigationBarTitleCompleteCallback = (res: GeneralCallbackResult) => void
+    type SetNavigationBarTitleCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type SetNavigationBarTitleFailCallback = (res: GeneralCallbackResult) => void
+    type SetNavigationBarTitleFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type SetNavigationBarTitleSuccessCallback = (res: GeneralCallbackResult) => void
+    type SetNavigationBarTitleSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type SetScreenBrightnessCompleteCallback = (res: GeneralCallbackResult) => void
+    type SetScreenBrightnessCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type SetScreenBrightnessFailCallback = (res: GeneralCallbackResult) => void
+    type SetScreenBrightnessFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type SetScreenBrightnessSuccessCallback = (res: GeneralCallbackResult) => void
+    type SetScreenBrightnessSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type SetStorageCompleteCallback = (res: GeneralCallbackResult) => void
+    type SetStorageCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type SetStorageFailCallback = (res: GeneralCallbackResult) => void
+    type SetStorageFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type SetStorageSuccessCallback = (res: GeneralCallbackResult) => void
+    type SetStorageSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type SetTabBarBadgeCompleteCallback = (res: GeneralCallbackResult) => void
+    type SetTabBarBadgeCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type SetTabBarBadgeFailCallback = (res: GeneralCallbackResult) => void
+    type SetTabBarBadgeFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type SetTabBarBadgeSuccessCallback = (res: GeneralCallbackResult) => void
+    type SetTabBarBadgeSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type SetTabBarItemCompleteCallback = (res: GeneralCallbackResult) => void
+    type SetTabBarItemCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type SetTabBarItemFailCallback = (res: GeneralCallbackResult) => void
+    type SetTabBarItemFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type SetTabBarItemSuccessCallback = (res: GeneralCallbackResult) => void
+    type SetTabBarItemSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type SetTabBarStyleCompleteCallback = (res: GeneralCallbackResult) => void
+    type SetTabBarStyleCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type SetTabBarStyleFailCallback = (res: GeneralCallbackResult) => void
+    type SetTabBarStyleFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type SetTabBarStyleSuccessCallback = (res: GeneralCallbackResult) => void
+    type SetTabBarStyleSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type SetTimeoutCompleteCallback = (res: Nfcrwerror) => void
+    type SetTimeoutCompleteCallback = (res: Nfcrwerror) => void;
     /** 接口调用失败的回调函数 */
-    type SetTimeoutFailCallback = (res: Nfcrwerror) => void
+    type SetTimeoutFailCallback = (res: Nfcrwerror) => void;
     /** 接口调用成功的回调函数 */
-    type SetTimeoutSuccessCallback = (res: Nfcrwerror) => void
+    type SetTimeoutSuccessCallback = (res: Nfcrwerror) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type SetTopBarTextCompleteCallback = (res: GeneralCallbackResult) => void
+    type SetTopBarTextCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type SetTopBarTextFailCallback = (res: GeneralCallbackResult) => void
+    type SetTopBarTextFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type SetTopBarTextSuccessCallback = (res: GeneralCallbackResult) => void
+    type SetTopBarTextSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type SetWifiListCompleteCallback = (res: WifiError) => void
+    type SetWifiListCompleteCallback = (res: WifiError) => void;
     /** 接口调用失败的回调函数 */
-    type SetWifiListFailCallback = (res: WifiError) => void
+    type SetWifiListFailCallback = (res: WifiError) => void;
     /** 接口调用成功的回调函数 */
-    type SetWifiListSuccessCallback = (res: WifiError) => void
+    type SetWifiListSuccessCallback = (res: WifiError) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type SetWindowSizeCompleteCallback = (res: GeneralCallbackResult) => void
+    type SetWindowSizeCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type SetWindowSizeFailCallback = (res: GeneralCallbackResult) => void
+    type SetWindowSizeFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type SetWindowSizeSuccessCallback = (res: GeneralCallbackResult) => void
+    type SetWindowSizeSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type SetZoomCompleteCallback = (res: GeneralCallbackResult) => void
+    type SetZoomCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type SetZoomFailCallback = (res: GeneralCallbackResult) => void
+    type SetZoomFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type SetZoomSuccessCallback = (result: SetZoomSuccessCallbackResult) => void
+    type SetZoomSuccessCallback = (result: SetZoomSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type ShowActionSheetCompleteCallback = (res: GeneralCallbackResult) => void
+    type ShowActionSheetCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type ShowActionSheetFailCallback = (res: GeneralCallbackResult) => void
+    type ShowActionSheetFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type ShowActionSheetSuccessCallback = (result: ShowActionSheetSuccessCallbackResult) => void
+    type ShowActionSheetSuccessCallback = (result: ShowActionSheetSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type ShowLoadingCompleteCallback = (res: GeneralCallbackResult) => void
+    type ShowLoadingCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type ShowLoadingFailCallback = (res: GeneralCallbackResult) => void
+    type ShowLoadingFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type ShowLoadingSuccessCallback = (res: GeneralCallbackResult) => void
+    type ShowLoadingSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type ShowModalCompleteCallback = (res: GeneralCallbackResult) => void
+    type ShowModalCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type ShowModalFailCallback = (res: GeneralCallbackResult) => void
+    type ShowModalFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type ShowModalSuccessCallback = (result: ShowModalSuccessCallbackResult) => void
+    type ShowModalSuccessCallback = (result: ShowModalSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type ShowNavigationBarLoadingCompleteCallback = (res: GeneralCallbackResult) => void
+    type ShowNavigationBarLoadingCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type ShowNavigationBarLoadingFailCallback = (res: GeneralCallbackResult) => void
+    type ShowNavigationBarLoadingFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type ShowNavigationBarLoadingSuccessCallback = (res: GeneralCallbackResult) => void
+    type ShowNavigationBarLoadingSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type ShowRedPackageCompleteCallback = (res: GeneralCallbackResult) => void
+    type ShowRedPackageCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type ShowRedPackageFailCallback = (res: GeneralCallbackResult) => void
+    type ShowRedPackageFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type ShowRedPackageSuccessCallback = (res: GeneralCallbackResult) => void
+    type ShowRedPackageSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type ShowShareMenuCompleteCallback = (res: GeneralCallbackResult) => void
+    type ShowShareMenuCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type ShowShareMenuFailCallback = (res: GeneralCallbackResult) => void
+    type ShowShareMenuFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type ShowShareMenuSuccessCallback = (res: GeneralCallbackResult) => void
+    type ShowShareMenuSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type ShowTabBarCompleteCallback = (res: GeneralCallbackResult) => void
+    type ShowTabBarCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type ShowTabBarFailCallback = (res: GeneralCallbackResult) => void
+    type ShowTabBarFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type ShowTabBarRedDotCompleteCallback = (res: GeneralCallbackResult) => void
+    type ShowTabBarRedDotCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type ShowTabBarRedDotFailCallback = (res: GeneralCallbackResult) => void
+    type ShowTabBarRedDotFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type ShowTabBarRedDotSuccessCallback = (res: GeneralCallbackResult) => void
+    type ShowTabBarRedDotSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type ShowTabBarSuccessCallback = (res: GeneralCallbackResult) => void
+    type ShowTabBarSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type ShowToastCompleteCallback = (res: GeneralCallbackResult) => void
+    type ShowToastCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type ShowToastFailCallback = (res: GeneralCallbackResult) => void
+    type ShowToastFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type ShowToastSuccessCallback = (res: GeneralCallbackResult) => void
+    type ShowToastSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type SocketTaskCloseCompleteCallback = (res: GeneralCallbackResult) => void
+    type SocketTaskCloseCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type SocketTaskCloseFailCallback = (res: GeneralCallbackResult) => void
+    type SocketTaskCloseFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type SocketTaskCloseSuccessCallback = (res: GeneralCallbackResult) => void
+    type SocketTaskCloseSuccessCallback = (res: GeneralCallbackResult) => void;
     /** WebSocket 连接关闭事件的回调函数 */
-    type SocketTaskOnCloseCallback = (result: SocketTaskOnCloseCallbackResult) => void
+    type SocketTaskOnCloseCallback = (result: SocketTaskOnCloseCallbackResult) => void;
     /** WebSocket 接受到服务器的消息事件的回调函数 */
-    type SocketTaskOnMessageCallback = (result: SocketTaskOnMessageCallbackResult) => void
+    type SocketTaskOnMessageCallback = (result: SocketTaskOnMessageCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type StartAccelerometerCompleteCallback = (res: GeneralCallbackResult) => void
+    type StartAccelerometerCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type StartAccelerometerFailCallback = (res: GeneralCallbackResult) => void
+    type StartAccelerometerFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type StartAccelerometerSuccessCallback = (res: GeneralCallbackResult) => void
+    type StartAccelerometerSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type StartBeaconDiscoveryCompleteCallback = (res: IBeaconError) => void
+    type StartBeaconDiscoveryCompleteCallback = (res: IBeaconError) => void;
     /** 接口调用失败的回调函数 */
-    type StartBeaconDiscoveryFailCallback = (res: IBeaconError) => void
+    type StartBeaconDiscoveryFailCallback = (res: IBeaconError) => void;
     /** 接口调用成功的回调函数 */
-    type StartBeaconDiscoverySuccessCallback = (res: IBeaconError) => void
+    type StartBeaconDiscoverySuccessCallback = (res: IBeaconError) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type StartBluetoothDevicesDiscoveryCompleteCallback = (res: BluetoothError) => void
+    type StartBluetoothDevicesDiscoveryCompleteCallback = (res: BluetoothError) => void;
     /** 接口调用失败的回调函数 */
-    type StartBluetoothDevicesDiscoveryFailCallback = (res: BluetoothError) => void
+    type StartBluetoothDevicesDiscoveryFailCallback = (res: BluetoothError) => void;
     /** 接口调用成功的回调函数 */
-    type StartBluetoothDevicesDiscoverySuccessCallback = (res: BluetoothError) => void
+    type StartBluetoothDevicesDiscoverySuccessCallback = (res: BluetoothError) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type StartCompassCompleteCallback = (res: GeneralCallbackResult) => void
+    type StartCompassCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type StartCompassFailCallback = (res: GeneralCallbackResult) => void
+    type StartCompassFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type StartCompassSuccessCallback = (res: GeneralCallbackResult) => void
+    type StartCompassSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type StartCompleteCallback = (res: GeneralCallbackResult) => void
+    type StartCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type StartDeviceMotionListeningCompleteCallback = (res: GeneralCallbackResult) => void
+    type StartDeviceMotionListeningCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type StartDeviceMotionListeningFailCallback = (res: GeneralCallbackResult) => void
+    type StartDeviceMotionListeningFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type StartDeviceMotionListeningSuccessCallback = (res: GeneralCallbackResult) => void
+    type StartDeviceMotionListeningSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type StartDiscoveryCompleteCallback = (res: Nfcrwerror) => void
+    type StartDiscoveryCompleteCallback = (res: Nfcrwerror) => void;
     /** 接口调用失败的回调函数 */
-    type StartDiscoveryFailCallback = (res: Nfcrwerror) => void
+    type StartDiscoveryFailCallback = (res: Nfcrwerror) => void;
     /** 接口调用成功的回调函数 */
-    type StartDiscoverySuccessCallback = (res: Nfcrwerror) => void
+    type StartDiscoverySuccessCallback = (res: Nfcrwerror) => void;
     /** 接口调用失败的回调函数 */
-    type StartFailCallback = (res: GeneralCallbackResult) => void
+    type StartFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type StartGyroscopeCompleteCallback = (res: GeneralCallbackResult) => void
+    type StartGyroscopeCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type StartGyroscopeFailCallback = (res: GeneralCallbackResult) => void
+    type StartGyroscopeFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type StartGyroscopeSuccessCallback = (res: GeneralCallbackResult) => void
+    type StartGyroscopeSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type StartHCECompleteCallback = (res: NFCError) => void
+    type StartHCECompleteCallback = (res: NFCError) => void;
     /** 接口调用失败的回调函数 */
-    type StartHCEFailCallback = (res: NFCError) => void
+    type StartHCEFailCallback = (res: NFCError) => void;
     /** 接口调用成功的回调函数 */
-    type StartHCESuccessCallback = (res: NFCError) => void
+    type StartHCESuccessCallback = (res: NFCError) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type StartLocalServiceDiscoveryCompleteCallback = (res: GeneralCallbackResult) => void
+    type StartLocalServiceDiscoveryCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type StartLocalServiceDiscoveryFailCallback = (result: StartLocalServiceDiscoveryFailCallbackResult) => void
+    type StartLocalServiceDiscoveryFailCallback = (result: StartLocalServiceDiscoveryFailCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type StartLocalServiceDiscoverySuccessCallback = (res: GeneralCallbackResult) => void
+    type StartLocalServiceDiscoverySuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type StartLocationUpdateBackgroundCompleteCallback = (res: GeneralCallbackResult) => void
+    type StartLocationUpdateBackgroundCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type StartLocationUpdateBackgroundFailCallback = (res: GeneralCallbackResult) => void
+    type StartLocationUpdateBackgroundFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type StartLocationUpdateBackgroundSuccessCallback = (res: GeneralCallbackResult) => void
+    type StartLocationUpdateBackgroundSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type StartLocationUpdateCompleteCallback = (res: GeneralCallbackResult) => void
+    type StartLocationUpdateCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type StartLocationUpdateFailCallback = (res: GeneralCallbackResult) => void
+    type StartLocationUpdateFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type StartLocationUpdateSuccessCallback = (res: GeneralCallbackResult) => void
+    type StartLocationUpdateSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type StartPreviewCompleteCallback = (res: GeneralCallbackResult) => void
+    type StartPreviewCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type StartPreviewFailCallback = (res: GeneralCallbackResult) => void
+    type StartPreviewFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type StartPreviewSuccessCallback = (res: GeneralCallbackResult) => void
+    type StartPreviewSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type StartPullDownRefreshCompleteCallback = (res: GeneralCallbackResult) => void
+    type StartPullDownRefreshCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type StartPullDownRefreshFailCallback = (res: GeneralCallbackResult) => void
+    type StartPullDownRefreshFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type StartPullDownRefreshSuccessCallback = (res: GeneralCallbackResult) => void
+    type StartPullDownRefreshSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type StartRecordCompleteCallback = (res: GeneralCallbackResult) => void
+    type StartRecordCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type StartRecordFailCallback = (res: GeneralCallbackResult) => void
+    type StartRecordFailCallback = (res: GeneralCallbackResult) => void;
     /** 超过30s或页面 `onHide` 时会结束录像 */
-    type StartRecordTimeoutCallback = (result: StartRecordTimeoutCallbackResult) => void
+    type StartRecordTimeoutCallback = (result: StartRecordTimeoutCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type StartSoterAuthenticationCompleteCallback = (res: GeneralCallbackResult) => void
+    type StartSoterAuthenticationCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type StartSoterAuthenticationFailCallback = (res: GeneralCallbackResult) => void
+    type StartSoterAuthenticationFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type StartSoterAuthenticationSuccessCallback = (result: StartSoterAuthenticationSuccessCallbackResult) => void
+    type StartSoterAuthenticationSuccessCallback = (result: StartSoterAuthenticationSuccessCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type StartSuccessCallback = (res: GeneralCallbackResult) => void
+    type StartSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type StartWifiCompleteCallback = (res: WifiError) => void
+    type StartWifiCompleteCallback = (res: WifiError) => void;
     /** 接口调用失败的回调函数 */
-    type StartWifiFailCallback = (res: WifiError) => void
+    type StartWifiFailCallback = (res: WifiError) => void;
     /** 接口调用成功的回调函数 */
-    type StartWifiSuccessCallback = (res: WifiError) => void
+    type StartWifiSuccessCallback = (res: WifiError) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type StatCompleteCallback = (res: GeneralCallbackResult) => void
+    type StatCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type StatFailCallback = (result: StatFailCallbackResult) => void
+    type StatFailCallback = (result: StatFailCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type StatSuccessCallback = (result: StatSuccessCallbackResult) => void
+    type StatSuccessCallback = (result: StatSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type StopAccelerometerCompleteCallback = (res: GeneralCallbackResult) => void
+    type StopAccelerometerCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type StopAccelerometerFailCallback = (res: GeneralCallbackResult) => void
+    type StopAccelerometerFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type StopAccelerometerSuccessCallback = (res: GeneralCallbackResult) => void
+    type StopAccelerometerSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type StopAdvertisingCompleteCallback = (res: GeneralCallbackResult) => void
+    type StopAdvertisingCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type StopAdvertisingFailCallback = (res: GeneralCallbackResult) => void
+    type StopAdvertisingFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type StopAdvertisingSuccessCallback = (res: GeneralCallbackResult) => void
+    type StopAdvertisingSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type StopBGMCompleteCallback = (res: GeneralCallbackResult) => void
+    type StopBGMCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type StopBGMFailCallback = (res: GeneralCallbackResult) => void
+    type StopBGMFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type StopBGMSuccessCallback = (res: GeneralCallbackResult) => void
+    type StopBGMSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type StopBackgroundAudioCompleteCallback = (res: GeneralCallbackResult) => void
+    type StopBackgroundAudioCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type StopBackgroundAudioFailCallback = (res: GeneralCallbackResult) => void
+    type StopBackgroundAudioFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type StopBackgroundAudioSuccessCallback = (res: GeneralCallbackResult) => void
+    type StopBackgroundAudioSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type StopBeaconDiscoveryCompleteCallback = (res: IBeaconError) => void
+    type StopBeaconDiscoveryCompleteCallback = (res: IBeaconError) => void;
     /** 接口调用失败的回调函数 */
-    type StopBeaconDiscoveryFailCallback = (res: IBeaconError) => void
+    type StopBeaconDiscoveryFailCallback = (res: IBeaconError) => void;
     /** 接口调用成功的回调函数 */
-    type StopBeaconDiscoverySuccessCallback = (res: IBeaconError) => void
+    type StopBeaconDiscoverySuccessCallback = (res: IBeaconError) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type StopBluetoothDevicesDiscoveryCompleteCallback = (res: BluetoothError) => void
+    type StopBluetoothDevicesDiscoveryCompleteCallback = (res: BluetoothError) => void;
     /** 接口调用失败的回调函数 */
-    type StopBluetoothDevicesDiscoveryFailCallback = (res: BluetoothError) => void
+    type StopBluetoothDevicesDiscoveryFailCallback = (res: BluetoothError) => void;
     /** 接口调用成功的回调函数 */
-    type StopBluetoothDevicesDiscoverySuccessCallback = (res: BluetoothError) => void
+    type StopBluetoothDevicesDiscoverySuccessCallback = (res: BluetoothError) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type StopCompassCompleteCallback = (res: GeneralCallbackResult) => void
+    type StopCompassCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type StopCompassFailCallback = (res: GeneralCallbackResult) => void
+    type StopCompassFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type StopCompassSuccessCallback = (res: GeneralCallbackResult) => void
+    type StopCompassSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type StopCompleteCallback = (res: GeneralCallbackResult) => void
+    type StopCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type StopDeviceMotionListeningCompleteCallback = (res: GeneralCallbackResult) => void
+    type StopDeviceMotionListeningCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type StopDeviceMotionListeningFailCallback = (res: GeneralCallbackResult) => void
+    type StopDeviceMotionListeningFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type StopDeviceMotionListeningSuccessCallback = (res: GeneralCallbackResult) => void
+    type StopDeviceMotionListeningSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type StopDiscoveryCompleteCallback = (res: Nfcrwerror) => void
+    type StopDiscoveryCompleteCallback = (res: Nfcrwerror) => void;
     /** 接口调用失败的回调函数 */
-    type StopDiscoveryFailCallback = (res: Nfcrwerror) => void
+    type StopDiscoveryFailCallback = (res: Nfcrwerror) => void;
     /** 接口调用成功的回调函数 */
-    type StopDiscoverySuccessCallback = (res: Nfcrwerror) => void
+    type StopDiscoverySuccessCallback = (res: Nfcrwerror) => void;
     /** 接口调用失败的回调函数 */
-    type StopFailCallback = (res: GeneralCallbackResult) => void
+    type StopFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type StopGyroscopeCompleteCallback = (res: GeneralCallbackResult) => void
+    type StopGyroscopeCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type StopGyroscopeFailCallback = (res: GeneralCallbackResult) => void
+    type StopGyroscopeFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type StopGyroscopeSuccessCallback = (res: GeneralCallbackResult) => void
+    type StopGyroscopeSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type StopHCECompleteCallback = (res: NFCError) => void
+    type StopHCECompleteCallback = (res: NFCError) => void;
     /** 接口调用失败的回调函数 */
-    type StopHCEFailCallback = (res: NFCError) => void
+    type StopHCEFailCallback = (res: NFCError) => void;
     /** 接口调用成功的回调函数 */
-    type StopHCESuccessCallback = (res: NFCError) => void
+    type StopHCESuccessCallback = (res: NFCError) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type StopLocalServiceDiscoveryCompleteCallback = (res: GeneralCallbackResult) => void
+    type StopLocalServiceDiscoveryCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type StopLocalServiceDiscoveryFailCallback = (result: StopLocalServiceDiscoveryFailCallbackResult) => void
+    type StopLocalServiceDiscoveryFailCallback = (result: StopLocalServiceDiscoveryFailCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type StopLocalServiceDiscoverySuccessCallback = (res: GeneralCallbackResult) => void
+    type StopLocalServiceDiscoverySuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type StopLocationUpdateCompleteCallback = (res: GeneralCallbackResult) => void
+    type StopLocationUpdateCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type StopLocationUpdateFailCallback = (res: GeneralCallbackResult) => void
+    type StopLocationUpdateFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type StopLocationUpdateSuccessCallback = (res: GeneralCallbackResult) => void
+    type StopLocationUpdateSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type StopPreviewCompleteCallback = (res: GeneralCallbackResult) => void
+    type StopPreviewCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type StopPreviewFailCallback = (res: GeneralCallbackResult) => void
+    type StopPreviewFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type StopPreviewSuccessCallback = (res: GeneralCallbackResult) => void
+    type StopPreviewSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type StopPullDownRefreshCompleteCallback = (res: GeneralCallbackResult) => void
+    type StopPullDownRefreshCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type StopPullDownRefreshFailCallback = (res: GeneralCallbackResult) => void
+    type StopPullDownRefreshFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type StopPullDownRefreshSuccessCallback = (res: GeneralCallbackResult) => void
+    type StopPullDownRefreshSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type StopRecordCompleteCallback = (res: GeneralCallbackResult) => void
+    type StopRecordCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type StopRecordFailCallback = (res: GeneralCallbackResult) => void
+    type StopRecordFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type StopSuccessCallback = (res: GeneralCallbackResult) => void
+    type StopSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type StopVoiceCompleteCallback = (res: GeneralCallbackResult) => void
+    type StopVoiceCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type StopVoiceFailCallback = (res: GeneralCallbackResult) => void
+    type StopVoiceFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type StopVoiceSuccessCallback = (res: GeneralCallbackResult) => void
+    type StopVoiceSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type StopWifiCompleteCallback = (res: WifiError) => void
+    type StopWifiCompleteCallback = (res: WifiError) => void;
     /** 接口调用失败的回调函数 */
-    type StopWifiFailCallback = (res: WifiError) => void
+    type StopWifiFailCallback = (res: WifiError) => void;
     /** 接口调用成功的回调函数 */
-    type StopWifiSuccessCallback = (res: WifiError) => void
+    type StopWifiSuccessCallback = (res: WifiError) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type SubscribeVoIPVideoMembersCompleteCallback = (res: GeneralCallbackResult) => void
+    type SubscribeVoIPVideoMembersCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type SubscribeVoIPVideoMembersFailCallback = (res: GeneralCallbackResult) => void
+    type SubscribeVoIPVideoMembersFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type SubscribeVoIPVideoMembersSuccessCallback = (res: GeneralCallbackResult) => void
+    type SubscribeVoIPVideoMembersSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type SwitchCameraCompleteCallback = (res: GeneralCallbackResult) => void
+    type SwitchCameraCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type SwitchCameraFailCallback = (res: GeneralCallbackResult) => void
+    type SwitchCameraFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type SwitchCameraSuccessCallback = (res: GeneralCallbackResult) => void
+    type SwitchCameraSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type SwitchTabCompleteCallback = (res: GeneralCallbackResult) => void
+    type SwitchTabCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type SwitchTabFailCallback = (res: GeneralCallbackResult) => void
+    type SwitchTabFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type SwitchTabSuccessCallback = (res: GeneralCallbackResult) => void
+    type SwitchTabSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type TakePhotoCompleteCallback = (res: GeneralCallbackResult) => void
+    type TakePhotoCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type TakePhotoFailCallback = (res: GeneralCallbackResult) => void
+    type TakePhotoFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type TakePhotoSuccessCallback = (result: TakePhotoSuccessCallbackResult) => void
+    type TakePhotoSuccessCallback = (result: TakePhotoSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type ToScreenLocationCompleteCallback = (res: GeneralCallbackResult) => void
+    type ToScreenLocationCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type ToScreenLocationFailCallback = (res: GeneralCallbackResult) => void
+    type ToScreenLocationFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type ToScreenLocationSuccessCallback = (result: ToScreenLocationSuccessCallbackResult) => void
+    type ToScreenLocationSuccessCallback = (result: ToScreenLocationSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type ToggleTorchCompleteCallback = (res: GeneralCallbackResult) => void
+    type ToggleTorchCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type ToggleTorchFailCallback = (res: GeneralCallbackResult) => void
+    type ToggleTorchFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type ToggleTorchSuccessCallback = (res: GeneralCallbackResult) => void
+    type ToggleTorchSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type TransceiveCompleteCallback = (res: Nfcrwerror) => void
+    type TransceiveCompleteCallback = (res: Nfcrwerror) => void;
     /** 接口调用失败的回调函数 */
-    type TransceiveFailCallback = (res: Nfcrwerror) => void
+    type TransceiveFailCallback = (res: Nfcrwerror) => void;
     /** 接口调用成功的回调函数 */
-    type TransceiveSuccessCallback = (result: TransceiveSuccessCallbackResult) => void
+    type TransceiveSuccessCallback = (result: TransceiveSuccessCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type TranslateMarkerCompleteCallback = (res: GeneralCallbackResult) => void
+    type TranslateMarkerCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type TranslateMarkerFailCallback = (res: GeneralCallbackResult) => void
+    type TranslateMarkerFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type TranslateMarkerSuccessCallback = (res: GeneralCallbackResult) => void
-    type UDPSocketOffCloseCallback = (res: GeneralCallbackResult) => void
+    type TranslateMarkerSuccessCallback = (res: GeneralCallbackResult) => void;
+    type UDPSocketOffCloseCallback = (res: GeneralCallbackResult) => void;
     /** 错误事件的回调函数 */
-    type UDPSocketOffErrorCallback = (result: UDPSocketOnErrorCallbackResult) => void
-    type UDPSocketOnCloseCallback = (res: GeneralCallbackResult) => void
-    type UDPSocketOnErrorCallback = (result: UDPSocketOnErrorCallbackResult) => void
+    type UDPSocketOffErrorCallback = (result: UDPSocketOnErrorCallbackResult) => void;
+    type UDPSocketOnCloseCallback = (res: GeneralCallbackResult) => void;
+    type UDPSocketOnErrorCallback = (result: UDPSocketOnErrorCallbackResult) => void;
     /** 收到消息的事件的回调函数 */
-    type UDPSocketOnMessageCallback = (result: UDPSocketOnMessageCallbackResult) => void
+    type UDPSocketOnMessageCallback = (result: UDPSocketOnMessageCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type UndoCompleteCallback = (res: GeneralCallbackResult) => void
+    type UndoCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type UndoFailCallback = (res: GeneralCallbackResult) => void
+    type UndoFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type UndoSuccessCallback = (res: GeneralCallbackResult) => void
+    type UndoSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type UnlinkCompleteCallback = (res: GeneralCallbackResult) => void
+    type UnlinkCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type UnlinkFailCallback = (result: UnlinkFailCallbackResult) => void
+    type UnlinkFailCallback = (result: UnlinkFailCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type UnlinkSuccessCallback = (res: GeneralCallbackResult) => void
+    type UnlinkSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type UnzipCompleteCallback = (res: GeneralCallbackResult) => void
+    type UnzipCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type UnzipFailCallback = (result: UnzipFailCallbackResult) => void
+    type UnzipFailCallback = (result: UnzipFailCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type UnzipSuccessCallback = (res: GeneralCallbackResult) => void
+    type UnzipSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type UpdateGroundOverlayCompleteCallback = (res: GeneralCallbackResult) => void
+    type UpdateGroundOverlayCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type UpdateGroundOverlayFailCallback = (res: GeneralCallbackResult) => void
+    type UpdateGroundOverlayFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type UpdateGroundOverlaySuccessCallback = (res: GeneralCallbackResult) => void
+    type UpdateGroundOverlaySuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type UpdateShareMenuCompleteCallback = (res: GeneralCallbackResult) => void
+    type UpdateShareMenuCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type UpdateShareMenuFailCallback = (res: GeneralCallbackResult) => void
+    type UpdateShareMenuFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type UpdateShareMenuSuccessCallback = (res: GeneralCallbackResult) => void
+    type UpdateShareMenuSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type UpdateVoIPChatMuteConfigCompleteCallback = (res: GeneralCallbackResult) => void
+    type UpdateVoIPChatMuteConfigCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type UpdateVoIPChatMuteConfigFailCallback = (res: GeneralCallbackResult) => void
+    type UpdateVoIPChatMuteConfigFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type UpdateVoIPChatMuteConfigSuccessCallback = (res: GeneralCallbackResult) => void
+    type UpdateVoIPChatMuteConfigSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type UpdateWeChatAppCompleteCallback = (res: GeneralCallbackResult) => void
+    type UpdateWeChatAppCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type UpdateWeChatAppFailCallback = (res: GeneralCallbackResult) => void
+    type UpdateWeChatAppFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type UpdateWeChatAppSuccessCallback = (res: GeneralCallbackResult) => void
+    type UpdateWeChatAppSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type UploadFileCompleteCallback = (res: GeneralCallbackResult) => void
+    type UploadFileCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type UploadFileFailCallback = (res: GeneralCallbackResult) => void
+    type UploadFileFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type UploadFileSuccessCallback = (result: UploadFileSuccessCallbackResult) => void
+    type UploadFileSuccessCallback = (result: UploadFileSuccessCallbackResult) => void;
     /** 上传进度变化事件的回调函数 */
-    type UploadTaskOffProgressUpdateCallback = (result: UploadTaskOnProgressUpdateCallbackResult) => void
+    type UploadTaskOffProgressUpdateCallback = (result: UploadTaskOnProgressUpdateCallbackResult) => void;
     /** 上传进度变化事件的回调函数 */
-    type UploadTaskOnProgressUpdateCallback = (result: UploadTaskOnProgressUpdateCallbackResult) => void
+    type UploadTaskOnProgressUpdateCallback = (result: UploadTaskOnProgressUpdateCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type VibrateLongCompleteCallback = (res: GeneralCallbackResult) => void
+    type VibrateLongCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type VibrateLongFailCallback = (res: GeneralCallbackResult) => void
+    type VibrateLongFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type VibrateLongSuccessCallback = (res: GeneralCallbackResult) => void
+    type VibrateLongSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type VibrateShortCompleteCallback = (res: GeneralCallbackResult) => void
+    type VibrateShortCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type VibrateShortFailCallback = (res: GeneralCallbackResult) => void
+    type VibrateShortFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type VibrateShortSuccessCallback = (res: GeneralCallbackResult) => void
+    type VibrateShortSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 主线程/Worker 线程向当前线程发送的消息的事件的回调函数 */
-    type WorkerOnMessageCallback = (result: WorkerOnMessageCallbackResult) => void
+    type WorkerOnMessageCallback = (result: WorkerOnMessageCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type WriteBLECharacteristicValueCompleteCallback = (res: BluetoothError) => void
+    type WriteBLECharacteristicValueCompleteCallback = (res: BluetoothError) => void;
     /** 接口调用失败的回调函数 */
-    type WriteBLECharacteristicValueFailCallback = (res: BluetoothError) => void
+    type WriteBLECharacteristicValueFailCallback = (res: BluetoothError) => void;
     /** 接口调用成功的回调函数 */
-    type WriteBLECharacteristicValueSuccessCallback = (res: BluetoothError) => void
+    type WriteBLECharacteristicValueSuccessCallback = (res: BluetoothError) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type WriteFileCompleteCallback = (res: GeneralCallbackResult) => void
+    type WriteFileCompleteCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type WriteFileFailCallback = (result: WriteFileFailCallbackResult) => void
+    type WriteFileFailCallback = (result: WriteFileFailCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type WriteFileSuccessCallback = (res: GeneralCallbackResult) => void
+    type WriteFileSuccessCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用结束的回调函数（调用成功、失败都会执行） */
-    type WriteNdefMessageCompleteCallback = (res: Nfcrwerror) => void
+    type WriteNdefMessageCompleteCallback = (res: Nfcrwerror) => void;
     /** 接口调用失败的回调函数 */
-    type WriteNdefMessageFailCallback = (res: Nfcrwerror) => void
+    type WriteNdefMessageFailCallback = (res: Nfcrwerror) => void;
     /** 接口调用成功的回调函数 */
-    type WriteNdefMessageSuccessCallback = (res: Nfcrwerror) => void
+    type WriteNdefMessageSuccessCallback = (res: Nfcrwerror) => void;
     /** 接口调用失败的回调函数 */
-    type WxGetFileInfoFailCallback = (res: GeneralCallbackResult) => void
+    type WxGetFileInfoFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type WxGetFileInfoSuccessCallback = (result: WxGetFileInfoSuccessCallbackResult) => void
+    type WxGetFileInfoSuccessCallback = (result: WxGetFileInfoSuccessCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type WxGetSavedFileListSuccessCallback = (result: WxGetSavedFileListSuccessCallbackResult) => void
+    type WxGetSavedFileListSuccessCallback = (result: WxGetSavedFileListSuccessCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type WxRemoveSavedFileFailCallback = (res: GeneralCallbackResult) => void
+    type WxRemoveSavedFileFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用失败的回调函数 */
-    type WxSaveFileFailCallback = (res: GeneralCallbackResult) => void
+    type WxSaveFileFailCallback = (res: GeneralCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type WxStartRecordSuccessCallback = (result: StartRecordSuccessCallbackResult) => void
+    type WxStartRecordSuccessCallback = (result: StartRecordSuccessCallbackResult) => void;
     /** 接口调用成功的回调函数 */
-    type WxStopRecordSuccessCallback = (res: GeneralCallbackResult) => void
+    type WxStopRecordSuccessCallback = (res: GeneralCallbackResult) => void;
 }
 
 /** [clearInterval(number intervalID)](https://developers.weixin.qq.com/miniprogram/dev/api/base/timer/clearInterval.html)
@@ -18222,14 +18222,14 @@ wx.writeBLECharacteristicValue({
 declare function clearInterval(
     /** 要取消的定时器的 ID */
     intervalID: number,
-): void
+): void;
 /** [clearTimeout(number timeoutID)](https://developers.weixin.qq.com/miniprogram/dev/api/base/timer/clearTimeout.html)
  *
  * 取消由 setTimeout 设置的定时器。 */
 declare function clearTimeout(
     /** 要取消的定时器的 ID */
     timeoutID: number,
-): void
+): void;
 /** [number setInterval(function callback, number delay, any rest)](https://developers.weixin.qq.com/miniprogram/dev/api/base/timer/setInterval.html)
  *
  * 设定一个定时器。按照指定的周期（以毫秒计）来执行注册的回调函数 */
@@ -18240,7 +18240,7 @@ declare function setInterval(
     delay?: number,
     /** param1, param2, ..., paramN 等附加参数，它们会作为参数传递给回调函数。 */
     rest?: any,
-): number
+): number;
 /** [number setTimeout(function callback, number delay, any rest)](https://developers.weixin.qq.com/miniprogram/dev/api/base/timer/setTimeout.html)
  *
  * 设定一个定时器。在定时到期以后执行注册的回调函数 */
@@ -18251,4 +18251,4 @@ declare function setTimeout(
     delay?: number,
     /** param1, param2, ..., paramN 等附加参数，它们会作为参数传递给回调函数。 */
     rest?: any,
-): number
+): number;

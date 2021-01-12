@@ -1,15 +1,15 @@
-import { expectType, expectError } from 'tsd'
+import { expectType, expectError } from 'tsd';
 
-expectType<void>(Page({}))
+expectType<void>(Page({}));
 
-expectType<Record<string, any>>(getCurrentPages()[0].data)
+expectType<Record<string, any>>(getCurrentPages()[0].data);
 
 const app = getApp<{
     globalData: {
         userInfo: WechatMiniprogram.UserInfo;
     };
     userInfoReadyCallback(userInfo: WechatMiniprogram.UserInfo): void;
-}>()
+}>();
 
 Page({
     data: {
@@ -21,43 +21,43 @@ Page({
     bindViewTap() {
         wx.navigateTo({
             url: '../logs/logs',
-        })
+        });
     },
     onLoad() {
         if (app.globalData.userInfo) {
             this.setData({
                 userInfo: app.globalData.userInfo,
                 hasUserInfo: true,
-            })
+            });
         } else if (this.data.canIUse) {
             app.userInfoReadyCallback = res => {
                 this.setData({
                     userInfo: res,
                     hasUserInfo: true,
-                })
-            }
+                });
+            };
         } else {
             wx.getUserInfo({
                 success: res => {
-                    app.globalData.userInfo = res.userInfo
+                    app.globalData.userInfo = res.userInfo;
                     this.setData({
                         userInfo: res.userInfo,
                         hasUserInfo: true,
-                    })
+                    });
                 },
-            })
+            });
         }
     },
 
     getUserInfo(e: any) {
-        this.selectComponent('test')
-        app.globalData.userInfo = e.detail.userInfo
+        this.selectComponent('test');
+        app.globalData.userInfo = e.detail.userInfo;
         this.setData({
             userInfo: e.detail.userInfo,
             hasUserInfo: true,
-        })
+        });
     },
-})
+});
 
 Page({
     data: {
@@ -66,38 +66,38 @@ Page({
         logs: [] as string[],
     },
     onLoad(options) {
-        expectType<string | undefined>(options.from)
+        expectType<string | undefined>(options.from);
         const app = getApp<{
             globalData: { userInfo: WechatMiniprogram.UserInfo };
-        }>()
-        expectType<string>(app.globalData.userInfo.nickName)
+        }>();
+        expectType<string>(app.globalData.userInfo.nickName);
     },
     onReady() {
         this.setData({
             logs: (wx.getStorageSync('logs') || []).map((log: number) => {
-                return new Date(log).toString()
+                return new Date(log).toString();
             }),
-        })
+        });
     },
     onShow() {},
     onUnload() {},
     onPullDownRefresh() {},
     onShareAppMessage(res) {
-        expectType<string>(res.from)
+        expectType<string>(res.from);
         if (res.from === 'button') {
-            expectType<string | undefined>(res.webViewUrl)
+            expectType<string | undefined>(res.webViewUrl);
         }
         return {
             title: '自定义转发标题',
             path: '/page/user?id=123',
-        }
+        };
     },
     onPageScroll() {},
     onResize() {},
     onTabItemTap(item) {
-        expectType<string>(item.index)
-        expectType<string>(item.pagePath)
-        expectType<string>(item.text)
+        expectType<string>(item.index);
+        expectType<string>(item.pagePath);
+        expectType<string>(item.text);
     },
     viewTap() {
         this.setData(
@@ -108,69 +108,69 @@ Page({
                 'newField.text': 'new data',
             },
             function () {},
-        )
-        expectType<string>(this.route)
-        expectType<string>(this.data.text)
-        this.viewTap()
+        );
+        expectType<string>(this.route);
+        expectType<string>(this.data.text);
+        this.viewTap();
 
-        const p = getCurrentPages()[1] as WechatMiniprogram.Page.Instance<{ a: number }, { customData: { b: number } }>
-        p.customData.b = p.data.a
+        const p = getCurrentPages()[1] as WechatMiniprogram.Page.Instance<{ a: number }, { customData: { b: number } }>;
+        p.customData.b = p.data.a;
     },
     customData: {
         hi: 'MINA',
     },
-})
+});
 
 Page({
     data: {
         a: 1,
     },
     onLoad(q) {
-        expectType<Record<string, string | undefined>>(q)
-        expectType<number>(this.data.a)
-        expectError(this.a)
+        expectType<Record<string, string | undefined>>(q);
+        expectType<number>(this.data.a);
+        expectError(this.a);
     },
     jump() {
-        const query = wx.createSelectorQuery()
+        const query = wx.createSelectorQuery();
         query.select('#a').boundingClientRect(res => {
-            expectType<WechatMiniprogram.BoundingClientRectCallbackResult>(res)
-        })
+            expectType<WechatMiniprogram.BoundingClientRectCallbackResult>(res);
+        });
         query.selectViewport().scrollOffset(res => {
-            expectType<WechatMiniprogram.ScrollOffsetCallbackResult>(res)
-        })
+            expectType<WechatMiniprogram.ScrollOffsetCallbackResult>(res);
+        });
         query.exec(res => {
-            expectType<any>(res)
-        })
+            expectType<any>(res);
+        });
     },
     jumpBack() {
-        wx.navigateBack({})
+        wx.navigateBack({});
     },
-})
+});
 
 Page({
     f() {
-        expectType<Record<string, any>>(this.data)
+        expectType<Record<string, any>>(this.data);
     },
-})
+});
 
 Page({
     data: {},
     f() {
-        expectType<{}>(this.data)
+        expectType<{}>(this.data);
         this.setData({
             a: 1,
-        })
+        });
     },
-})
+});
 
 Page({
     onLoad(q) {
-        q
+        q;
     },
     f() {
-        this.onLoad()
+        this.onLoad();
     },
-})
+});
 
 interface DataType {
     logs: string[];
@@ -184,53 +184,53 @@ Page<DataType, CustomOption>({
         logs: [],
     },
     getLogs() {
-        return (wx.getStorageSync('logs') || []).map((log: number) => {
-            return new Date(log).toString()
-        })
+        return ((wx.getStorageSync('logs') as number[]) || []).map((log: number) => {
+            return new Date(log).toString();
+        });
     },
     onLoad() {
-        const logs = this.getLogs()
-        expectType<string[]>(logs)
-        this.setData({ logs })
-        expectError(this.logs)
-        expectType<string[]>(this.data.logs)
+        const logs = this.getLogs();
+        expectType<string[]>(logs);
+        this.setData({ logs });
+        expectError(this.logs);
+        expectType<string[]>(this.data.logs);
     },
-})
+});
 
 Page({
     test() {
-        const channel = this.getOpenerEventChannel()
-        expectType<WechatMiniprogram.EventChannel>(channel)
-        channel.emit('test', {})
-        channel.on('xxx', () => {})
-        expectError(channel.emit(1, 2))
+        const channel = this.getOpenerEventChannel();
+        expectType<WechatMiniprogram.EventChannel>(channel);
+        channel.emit('test', {});
+        channel.on('xxx', () => {});
+        expectError(channel.emit(1, 2));
     },
-})
+});
 
 Page({
     onAddToFavorites(res) {
         // webview 页面返回 webviewUrl
         if (res.webviewUrl) {
-            console.log('WebviewUrl: ', res.webviewUrl)
+            console.log('WebviewUrl: ', res.webviewUrl);
         }
         return {
             title: '自定义标题',
             imageUrl: 'http://demo.png',
             query: 'name=xxx&age=xxx',
-        }
+        };
     },
-})
+});
 
 Page({
     data: { a: '123' },
     onShow() {
-        expectType<() => number>(this.fn)
+        expectType<() => number>(this.fn);
     },
     fn() {
-        const a = 1
-        return a
+        const a = Math.random();
+        return a;
     },
     onShareAppMessage(): WechatMiniprogram.Page.ICustomShareContent {
-        return { title: this.data.a, imageUrl: '', path: '' }
+        return { title: this.data.a, imageUrl: '', path: '' };
     },
-})
+});

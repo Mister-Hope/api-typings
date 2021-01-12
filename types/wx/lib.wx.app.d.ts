@@ -105,7 +105,7 @@ declare namespace WechatMiniprogram.App {
         | 1124
         | 1125
         | 1126
-        | 1129
+        | 1129;
 
     interface LaunchShowOption {
         /** 打开小程序的路径 */
@@ -243,9 +243,9 @@ declare namespace WechatMiniprogram.App {
         onThemeChange: OnThemeChangeCallback;
     }
 
-    type Instance<T extends IAnyObject> = Option & T
-    type Options<T extends IAnyObject> = Partial<Option> & T & ThisType<Instance<T>>
-    type TrivialInstance = Instance<IAnyObject>
+    type Instance<T extends IAnyObject> = Option & T;
+    type Options<T extends IAnyObject> = Partial<Option> & T & ThisType<Instance<T>>;
+    type TrivialInstance = Instance<IAnyObject>;
 
     interface Constructor {
         <T extends IAnyObject>(options: Options<T>): void;
@@ -264,5 +264,5 @@ declare namespace WechatMiniprogram.App {
     }
 }
 
-declare let App: WechatMiniprogram.App.Constructor
-declare let getApp: WechatMiniprogram.App.GetApp
+declare let App: WechatMiniprogram.App.Constructor;
+declare let getApp: WechatMiniprogram.App.GetApp;

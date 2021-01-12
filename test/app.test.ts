@@ -1,51 +1,51 @@
-import { expectType } from 'tsd'
+import { expectType } from 'tsd';
 
-expectType<void>(App({}))
+expectType<void>(App({}));
 
 App({
     globalData: {
         userInfo: {} as WechatMiniprogram.UserInfo,
     },
     userInfoReadyCallback(userInfo: WechatMiniprogram.UserInfo) {
-        userInfo.gender
+        userInfo.gender;
     },
     onLaunch() {
-        const logs: number[] = wx.getStorageSync('logs') || []
-        logs.unshift(Date.now())
-        wx.setStorageSync('logs', logs)
+        const logs: number[] = wx.getStorageSync('logs') || [];
+        logs.unshift(Date.now());
+        wx.setStorageSync('logs', logs);
 
         wx.getSetting({
             success: res => {
                 if (res.authSetting['scope.userInfo']) {
                     wx.getUserInfo({
                         success: res => {
-                            this.globalData.userInfo = res.userInfo
+                            this.globalData.userInfo = res.userInfo;
                             if (this.userInfoReadyCallback) {
-                                this.userInfoReadyCallback(res.userInfo)
+                                this.userInfoReadyCallback(res.userInfo);
                             }
                         },
-                    })
+                    });
                 }
             },
-        })
+        });
     },
     f(a: number) {
-        return a.toFixed()
+        return a.toFixed();
     },
     onError() {},
     onHide() {
-        expectType<string>(this.f(1))
+        expectType<string>(this.f(1));
     },
     onPageNotFound(e) {
-        expectType<boolean>(e.isEntryPage)
+        expectType<boolean>(e.isEntryPage);
     },
     onUnhandledRejection({ reason, promise }) {
-        expectType<string>(reason)
-        expectType<Promise<any>>(promise)
+        expectType<string>(reason);
+        expectType<Promise<any>>(promise);
     },
     onThemeChange(res) {
-        expectType<'dark' | 'light'>(res.theme)
+        expectType<'dark' | 'light'>(res.theme);
     },
-})
+});
 
-expectType<WechatMiniprogram.App.Instance<Record<string, any>>>(getApp())
+expectType<WechatMiniprogram.App.Instance<Record<string, any>>>(getApp());
