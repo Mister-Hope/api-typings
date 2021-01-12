@@ -48,8 +48,8 @@ declare namespace WechatMiniprogram.Behavior {
             TMethod extends MethodOption,
             TCustomInstanceProperty extends IAnyObject = Record<string, never>
         >(
-            options: Options<TData, TProperty, TMethod, TCustomInstanceProperty>
-        ): BehaviorIdentifier
+            options: Options<TData, TProperty, TMethod, TCustomInstanceProperty>,
+        ): BehaviorIdentifier;
     }
 
     type DataOption = Component.DataOption
