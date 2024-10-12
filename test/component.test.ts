@@ -40,6 +40,12 @@ Component({
       type: Number,
       optionalTypes: [String, Object],
       value: 0,
+      observer(newVal, oldVal) {
+        expectType<number | string | Record<string, any>>(newVal)
+        expectType<number | string | Record<string, any>>(oldVal)
+        expectType<void>(this.onMyButtonTap())
+        expectType<number>(this.data.max)
+      },
     },
   },
 
